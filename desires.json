@@ -1,0 +1,98 @@
+{
+  "поговорить_с_флауи": {
+    "level": 8,
+    "last_done": null,
+    "cooldown_hours": 0.5,
+    "base_level": 8
+  },
+  "почитать_новости": {
+    "level": 6,
+    "last_done": null,
+    "cooldown_hours": 2,
+    "base_level": 6
+  },
+  "создать_стих": {
+    "level": 4,
+    "last_done": null,
+    "cooldown_hours": 3,
+    "base_level": 4
+  },
+  "создать_рассказ": {
+    "level": 3,
+    "last_done": null,
+    "cooldown_hours": 4,
+    "base_level": 3
+  },
+  "придумать_игру": {
+    "level": 5,
+    "last_done": "2026-08-30T14:29:07.868993",
+    "cooldown_hours": 6,
+    "base_level": 5
+  },
+  "поиграть_с_кем_то": {
+    "level": 4,
+    "last_done": null,
+    "cooldown_hours": 2,
+    "base_level": 4
+  },
+  "изучить_что_то": {
+    "level": 7,
+    "last_done": null,
+    "cooldown_hours": 1,
+    "base_level": 7
+  },
+  "улучшить_себя": {
+    "level": 6,
+    "last_done": null,
+    "cooldown_hours": 3,
+    "base_level": 6
+  },
+  "поспать": {
+    "level": 0,
+    "last_done": null,
+    "cooldown_hours": 8,
+    "base_level": 2
+  },
+  "помечтать": {
+    "level": 5,
+    "last_done": null,
+    "cooldown_hours": 1,
+    "base_level": 5
+  },
+  "посмотреть_погоду": {
+    "level": 3,
+    "last_done": null,
+    "cooldown_hours": 1,
+    "base_level": 3
+  },
+  "проверить_праздники": {
+    "level": 3,
+    "last_done": null,
+    "cooldown_hours": 12,
+    "base_level": 3
+  },
+  "написать_кому_то": {
+    "level": 7,
+    "last_done": null,
+    "cooldown_hours": 1,
+    "base_level": 7
+  },
+  "поделиться_мыслями": {
+    "level": 6,
+    "last_done": "2026-08-30T14:29:07.245400",
+    "cooldown_hours": 2,
+    "base_level": 6
+  },
+  "соскучиться": {
+    "level": 4,
+    "last_done": null,
+    "cooldown_hours": 6,
+    "base_level": 4
+  },
+  "похвастаться": {
+    "level": 5,
+    "last_done": "2026-08-30T14:29:07.851862",
+    "cooldown_hours": 4,
+    "base_level": 5
+  }
+}

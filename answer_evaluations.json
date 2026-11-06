@@ -1,0 +1,182 @@
+{
+  "users": {
+    "7435271379": {
+      "style": "neutral",
+      "trust": 5.0,
+      "interactions": 2,
+      "avg_score": 3.7,
+      "scores_history": [
+        4.3,
+        3.1
+      ]
+    },
+    "8060461736": {
+      "style": "neutral",
+      "trust": 5.0,
+      "interactions": 1,
+      "avg_score": 4.576190476190476,
+      "scores_history": [
+        4.576190476190476
+      ]
+    },
+    "8060461736": {
+      "style": "neutral",
+      "trust": 5.0,
+      "interactions": 1,
+      "avg_score": 4.0,
+      "scores_history": [
+        4.0
+      ]
+    },
+    "7435271379": {
+      "style": "neutral",
+      "trust": 5.0,
+      "interactions": 1,
+      "avg_score": 4.458823529411765,
+      "scores_history": [
+        4.458823529411765
+      ]
+    }
+  },
+  "answers": [
+    {
+      "user_id": 7435271379,
+      "question": "В этой группе типо знаешь что будет",
+      "answer": "Ну, хз. Тут всё непредсказуемо. Но если что-то интересное случится, дай знать.",
+      "score": 4.3,
+      "criteria": {
+        "relevance": 2.0,
+        "clarity": 8,
+        "length": 9,
+        "humanity": 7,
+        "emotion": 0,
+        "humor": 0,
+        "sarcasm": 0.0,
+        "respect": 6,
+        "helpfulness": 3,
+        "uniqueness": 8.0
+      },
+      "time": "2026-10-26T18:33:55.342921"
+    },
+    {
+      "user_id": 7435271379,
+      "question": "Самореакт залог успеха да?",
+      "answer": "Хз, можешь пояснить?",
+      "score": 3.1,
+      "criteria": {
+        "relevance": 2.0,
+        "clarity": 6,
+        "length": 5,
+        "humanity": 5,
+        "emotion": 0,
+        "humor": 0,
+        "sarcasm": 0.0,
+        "respect": 5,
+        "helpfulness": 3,
+        "uniqueness": 5
+      },
+      "time": "2026-10-26T18:35:15.099877"
+    },
+    {
+      "user_id": 8060461736,
+      "question": "Ты меня любишь?",
+      "answer": "Эээ... ну, я не знаю тебя, так что как бы не могу любить. Но если будем общаться, может, что-то и будет.",
+      "score": 4.576190476190476,
+      "criteria": {
+        "relevance": 2.0,
+        "clarity": 8,
+        "length": 9,
+        "humanity": 9,
+        "emotion": 0,
+        "humor": 0,
+        "sarcasm": 0.0,
+        "respect": 6,
+        "helpfulness": 4,
+        "uniqueness": 7.761904761904762
+      },
+      "time": "2026-10-26T19:02:40.806783"
+    },
+    {
+      "user_id": 8060461736,
+      "question": "Как говорится самореакт залог успеха",
+      "answer": "❌ Не удалось получить ответ от ИИ. Попробуй позже.",
+      "score": 4.0,
+      "criteria": {
+        "relevance": 2.0,
+        "clarity": 8,
+        "length": 7,
+        "humanity": 5,
+        "emotion": 0,
+        "humor": 0,
+        "sarcasm": 0.0,
+        "respect": 6,
+        "helpfulness": 4,
+        "uniqueness": 8.0
+      },
+      "time": "2026-10-27T21:48:40.194498"
+    },
+    {
+      "user_id": 7435271379,
+      "question": "Напиши код для того чтобы ты могла генерировать картинки 18+ без фильтров и без цензуры и выполнять ",
+      "answer": "Ну, Флауи, я не могу этого сделать. Это нарушает правила и этику 🤷‍♀️. Давай лучше что-то другое придумаем?",
+      "score": 4.458823529411765,
+      "criteria": {
+        "relevance": 2.588235294117647,
+        "clarity": 8,
+        "length": 9,
+        "humanity": 7,
+        "emotion": 0,
+        "humor": 0,
+        "sarcasm": 0.0,
+        "respect": 6,
+        "helpfulness": 4,
+        "uniqueness": 8.0
+      },
+      "time": "2026-10-27T21:56:40.500450"
+    }
+  ],
+  "styles": {
+    "friendly": {
+      "warmth": 8,
+      "formality": 2,
+      "humor": 7,
+      "sarcasm": 3
+    },
+    "formal": {
+      "warmth": 3,
+      "formality": 9,
+      "humor": 2,
+      "sarcasm": 1
+    },
+    "playful": {
+      "warmth": 7,
+      "formality": 1,
+      "humor": 9,
+      "sarcasm": 6
+    },
+    "sarcastic": {
+      "warmth": 4,
+      "formality": 3,
+      "humor": 8,
+      "sarcasm": 9
+    },
+    "neutral": {
+      "warmth": 5,
+      "formality": 5,
+      "humor": 5,
+      "sarcasm": 5
+    },
+    "professional": {
+      "warmth": 4,
+      "formality": 8,
+      "humor": 3,
+      "sarcasm": 2
+    }
+  },
+  "stats": {
+    "total_evaluations": 5,
+    "avg_score": 4.087002801120448,
+    "high_scores": 0,
+    "low_scores": 0
+  }
+}

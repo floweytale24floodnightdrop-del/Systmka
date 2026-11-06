@@ -1,0 +1,11 @@
+{
+  "modules": [
+    "_base_client",
+    "_client",
+    "langsmith._openapi_client._base_client",
+    "tenacity.tornadoweb",
+    "torch.utils.tensorboard"
+  ],
+  "last_update": "2026-10-27T22:17:14.559686",
+  "source": "error_fixer_ai"
+}

@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+requests
+dnspython
+flask
+cryptography
+pyshielder

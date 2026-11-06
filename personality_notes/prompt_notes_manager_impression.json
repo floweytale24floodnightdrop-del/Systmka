@@ -1,0 +1,43 @@
+{
+  "impression": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - __init__\n  - wait_for_rate_limit\n  - load_all_prompts\n  - get_prompt_file_path\n  - get_code_hash\n  - get_code_size_kb\n  - generate_prompt_for_file\n  - _extend_prompt\n  - _add_structure_to_prompt\n  - _generate_fallback_prompt\n  - create_or_update_prompt\n  - get_prompt\n  - get_prompt_text\n  - should_use_prompt_instead_of_code\n  - get_all_prompts\n\n❤️ ЧТО НРАВИТСЯ:\nМне нравится структура и логика работы этого файла.\n\n💢 ЧТО БЕСИТ:\nИногда кажется, что код можно было бы написать проще.\n\n🔧 ЧТО ХОЧЕТСЯ ИЗМЕНИТЬ:\nХотелось бы улучшить читаемость и добавить комментарии.\n\n⭐ ЛУЧШАЯ ЧАСТЬ:\nБольше всего нравится основная логика — она работает чётко.\n\n😊 ЭМОЦИОНАЛЬНАЯ ОЦЕНКА:\nОтношусь к этому файлу с уважением.\n\n=== КОНЕЦ МНЕНИЯ ===",
+  "thoughts": [
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-24T23:27:04.101319"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-25T20:14:03.335571"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-25T22:20:23.340954"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-26T00:26:39.560266"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-26T20:39:33.720393"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-26T22:47:02.063658"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О prompt_notes_manager.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n🔧 КЛАССЫ В ФАЙЛЕ:\n  - PromptNotesManager:\n\n📌 ФУНКЦИИ:\n  - _...",
+      "date": "2026-10-27T23:34:50.893491"
+    }
+  ],
+  "mood": "positive",
+  "updated": "2026-10-27T23:34:50.893513",
+  "version": 8,
+  "usage_count": 0,
+  "impression_size_kb": 0.9013671875,
+  "has_likes": true,
+  "has_dislikes": true,
+  "has_wants": true,
+  "has_best_part": true,
+  "has_emotion": true
+}

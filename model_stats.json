@@ -1,0 +1,61 @@
+{
+  "models": {
+    "systmka_ai": {
+      "total_requests": 58,
+      "successful": 0,
+      "failed": 58,
+      "avg_time": 0,
+      "quality": 5.0,
+      "last_used": "2026-09-08T10:50:23.732509",
+      "total_uses": 0,
+      "avg_response_time": 0,
+      "avg_quality_score": 0,
+      "tasks": {},
+      "rating": 50
+    },
+    "deepseek/deepseek-chat": {
+      "total_uses": 58,
+      "successful": 42,
+      "failed": 16,
+      "avg_response_time": 2.9128913084665933,
+      "avg_quality_score": 6.642857142857143,
+      "last_used": "2026-10-27T22:23:18.997395",
+      "tasks": {
+        "general": {
+          "uses": 29,
+          "avg_score": 5.03448275862069
+        },
+        "general_chat": {
+          "uses": 29,
+          "avg_score": 5.689655172413793
+        }
+      },
+      "rating": 77.13221130380997
+    },
+    "gemini/gemini-2.0-flash": {
+      "total_uses": 16,
+      "successful": 0,
+      "failed": 16,
+      "avg_response_time": 0,
+      "avg_quality_score": 0,
+      "last_used": "2026-10-27T22:23:19.414343",
+      "tasks": {
+        "general": {
+          "uses": 8,
+          "avg_score": 2.0
+        },
+        "general_chat": {
+          "uses": 8,
+          "avg_score": 2.0
+        }
+      },
+      "rating": 26.153846153846153
+    }
+  },
+  "task_distribution": {
+    "conversation": 58,
+    "general": 37,
+    "general_chat": 37
+  },
+  "last_update": "2026-10-27T22:23:19.414346"
+}

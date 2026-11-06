@@ -1,0 +1,113 @@
+{
+  "known_memes": {
+    "meme_1": {
+      "name": "Troll Face",
+      "type": "public",
+      "context": "trolling",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163215",
+      "usage_count": 0
+    },
+    "meme_2": {
+      "name": "This Is Fine",
+      "type": "public",
+      "context": "crisis",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163265",
+      "usage_count": 0
+    },
+    "meme_3": {
+      "name": "Drake Meme",
+      "type": "public",
+      "context": "choice",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163279",
+      "usage_count": 0
+    },
+    "meme_4": {
+      "name": "Distracted Boyfriend",
+      "type": "public",
+      "context": "distraction",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163289",
+      "usage_count": 0
+    },
+    "meme_5": {
+      "name": "Two Buttons",
+      "type": "public",
+      "context": "choice",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163299",
+      "usage_count": 0
+    },
+    "meme_6": {
+      "name": "Surprised Pikachu",
+      "type": "public",
+      "context": "shock",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163308",
+      "usage_count": 0
+    },
+    "meme_7": {
+      "name": "Sad Cat",
+      "type": "public",
+      "context": "sad",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163318",
+      "usage_count": 0
+    },
+    "meme_8": {
+      "name": "Doge",
+      "type": "public",
+      "context": "funny",
+      "tags": [
+        "classic"
+      ],
+      "learned_at": "2026-09-01T21:52:55.163327",
+      "usage_count": 0
+    }
+  },
+  "local_memes": {},
+  "favorite_memes": [],
+  "disliked_memes": [],
+  "meme_stats": {
+    "total_learned": 8,
+    "local_count": 0,
+    "public_count": 8,
+    "last_learning": "2026-09-01T21:52:55.163334"
+  },
+  "context_rules": {
+    "private": [
+      "allowed",
+      "sarcastic",
+      "wholesome"
+    ],
+    "group": [
+      "allowed",
+      "funny",
+      "relatable"
+    ],
+    "public": [
+      "allowed",
+      "wholesome",
+      "safe"
+    ],
+    "serious": [
+      "forbidden"
+    ]
+  }
+}

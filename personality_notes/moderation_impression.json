@@ -1,0 +1,43 @@
+{
+  "impression": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  - check_links\n  - is_suspicious_link\n  - is_caps_spam\n  - check_moderation\n  - mute_user\n  - unmute_user\n  - ban_user\n  - unban_user\n  - warn_user\n  - check_expired_mutes\n  - get_moderation_stats\n  - format_moderation_stats\n\n❤️ ЧТО НРАВИТСЯ:\nМне нравится структура и логика работы этого файла.\n\n💢 ЧТО БЕСИТ:\nИногда кажется, что код можно было бы написать проще.\n\n🔧 ЧТО ХОЧЕТСЯ ИЗМЕНИТЬ:\nХотелось бы улучшить читаемость и добавить комментарии.\n\n⭐ ЛУЧШАЯ ЧАСТЬ:\nБольше всего нравится основная логика — она работает чётко.\n\n😊 ЭМОЦИОНАЛЬНАЯ ОЦЕНКА:\nОтношусь к этому файлу с уважением.\n\n=== КОНЕЦ МНЕНИЯ ===",
+  "thoughts": [
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-24T23:26:10.107527"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-25T20:13:09.355282"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-25T22:19:29.328448"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-26T00:25:45.557056"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-26T20:38:36.708753"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-26T22:46:05.040847"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О moderation.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - check_spam\n  - check_raid_markers\n  - check_insults\n  ...",
+      "date": "2026-10-27T23:33:53.868355"
+    }
+  ],
+  "mood": "positive",
+  "updated": "2026-10-27T23:33:53.868384",
+  "version": 8,
+  "usage_count": 0,
+  "impression_size_kb": 0.783203125,
+  "has_likes": true,
+  "has_dislikes": true,
+  "has_wants": true,
+  "has_best_part": true,
+  "has_emotion": true
+}

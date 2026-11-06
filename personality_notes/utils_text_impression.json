@@ -1,0 +1,39 @@
+{
+  "impression": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_links\n  - extract_mentions\n  - extract_hashtags\n  - extract_emails\n  - extract_phones\n  - translate_text\n  - summarize_text\n  - detect_language\n  - analyze_sentiment\n  - clean_text\n  - truncate_text\n  - count_words\n  - count_chars\n\n❤️ ЧТО НРАВИТСЯ:\nМне нравится структура и логика работы этого файла.\n\n💢 ЧТО БЕСИТ:\nИногда кажется, что код можно было бы написать проще.\n\n🔧 ЧТО ХОЧЕТСЯ ИЗМЕНИТЬ:\nХотелось бы улучшить читаемость и добавить комментарии.\n\n⭐ ЛУЧШАЯ ЧАСТЬ:\nБольше всего нравится основная логика — она работает чётко.\n\n😊 ЭМОЦИОНАЛЬНАЯ ОЦЕНКА:\nОтношусь к этому файлу с уважением.\n\n=== КОНЕЦ МНЕНИЯ ===",
+  "thoughts": [
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-24T23:28:04.125909"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-25T20:15:13.086329"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-25T22:21:29.373261"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-26T00:27:45.579413"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-26T20:40:39.835920"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О utils_text.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - _get_openrouter_key\n  - detect_toxicity\n  - extract_li...",
+      "date": "2026-10-27T23:35:56.878196"
+    }
+  ],
+  "mood": "positive",
+  "updated": "2026-10-27T23:35:56.878216",
+  "version": 7,
+  "usage_count": 0,
+  "impression_size_kb": 0.7880859375,
+  "has_likes": true,
+  "has_dislikes": true,
+  "has_wants": true,
+  "has_best_part": true,
+  "has_emotion": true
+}

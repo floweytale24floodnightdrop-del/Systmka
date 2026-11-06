@@ -1,0 +1,625 @@
+{
+  "config": {
+    "required": true,
+    "provides": [
+      "TELEGRAM_TOKEN",
+      "OPENROUTER_KEY",
+      "OWNER_IDS",
+      "ALL_STICKERS",
+      "moscow_tz"
+    ]
+  },
+  "config_network": {
+    "required": true,
+    "provides": [
+      "check_internet",
+      "cache_get",
+      "cache_set"
+    ],
+    "needs": [
+      "config"
+    ]
+  },
+  "system_prompt": {
+    "required": true,
+    "provides": [
+      "SYSTEM_PROMPT"
+    ]
+  },
+  "database": {
+    "required": true,
+    "provides": [
+      "user_profiles",
+      "user_glitches",
+      "user_combo",
+      "rp_commands",
+      "get_user_glitches",
+      "add_glitches",
+      "spend_glitches"
+    ],
+    "needs": [
+      "config"
+    ]
+  },
+  "handlers_start": {
+    "required": true,
+    "needs": [
+      "config",
+      "premium",
+      "behavior",
+      "commands"
+    ]
+  },
+  "handlers_commands": {
+    "required": true,
+    "needs": [
+      "config",
+      "config_network",
+      "system_prompt",
+      "database",
+      "generation",
+      "music",
+      "battle",
+      "osint_engine",
+      "moderation",
+      "security",
+      "trojan_game",
+      "premium",
+      "history",
+      "top",
+      "progress",
+      "behavior",
+      "rp_commands",
+      "voice",
+      "sleep",
+      "fatigue",
+      "reactions",
+      "handlers_owner",
+      "handlers_economy",
+      "handlers_media",
+      "self_learning",
+      "error_reporter",
+      "message_filter"
+    ]
+  },
+  "handlers_owner": {
+    "required": true,
+    "needs": [
+      "config",
+      "database",
+      "progress",
+      "osint_engine",
+      "system_monitor",
+      "self_learning",
+      "trash",
+      "stickers_custom",
+      "reactions",
+      "premium",
+      "voice"
+    ]
+  },
+  "handlers_economy": {
+    "required": true,
+    "needs": [
+      "config",
+      "database",
+      "premium"
+    ]
+  },
+  "handlers_media": {
+    "required": true,
+    "needs": [
+      "config",
+      "voice",
+      "stickers_custom",
+      "utils_media"
+    ]
+  },
+  "generation": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "music": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "battle": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "osint_engine": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "moderation": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "security": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "trojan_game": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "premium": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "history": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "top": {
+    "required": true,
+    "needs": [
+      "database"
+    ]
+  },
+  "messages": {
+    "required": true
+  },
+  "commands": {
+    "required": true
+  },
+  "progress": {
+    "required": true
+  },
+  "behavior": {
+    "required": true
+  },
+  "account_control": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "self_learning": {
+    "required": true,
+    "needs": [
+      "config",
+      "trash"
+    ]
+  },
+  "trash": {
+    "required": true
+  },
+  "stickers_custom": {
+    "required": true
+  },
+  "file_manager": {
+    "required": true
+  },
+  "system_monitor": {
+    "required": true,
+    "needs": [
+      "file_manager"
+    ]
+  },
+  "debug_changes": {
+    "required": true
+  },
+  "rp_commands": {
+    "required": true
+  },
+  "voice": {
+    "required": true
+  },
+  "sleep": {
+    "required": true
+  },
+  "fatigue": {
+    "required": true
+  },
+  "morning_greetings": {
+    "required": true
+  },
+  "reactions": {
+    "required": true
+  },
+  "utils_media": {
+    "required": true,
+    "needs": [
+      "config"
+    ]
+  },
+  "utils_text": {
+    "required": false
+  },
+  "utils_osint_extended": {
+    "required": false
+  },
+  "error_reporter": {
+    "required": true
+  },
+  "error_fixer": {
+    "required": true,
+    "needs": [
+      "trash"
+    ]
+  },
+  "message_filter": {
+    "required": true,
+    "needs": [
+      "config_network"
+    ]
+  },
+  "auto_start": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508472",
+    "needs": [
+      "error_fixer"
+    ],
+    "analyzed": true
+  },
+  "bot": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508853",
+    "needs": [
+      "config",
+      "config_network",
+      "system_prompt",
+      "auto_import",
+      "message_filter",
+      "error_reporter",
+      "error_fixer",
+      "sleep",
+      "trash",
+      "stickers_custom",
+      "premium",
+      "rp_commands",
+      "debug_changes",
+      "consciousness",
+      "autonomy",
+      "emotions",
+      "games",
+      "weather",
+      "holidays",
+      "creativity",
+      "self_reflection",
+      "attachments",
+      "desires",
+      "handlers_start",
+      "handlers_main",
+      "terminal_chat",
+      "happ_control",
+      "telegram_proxy",
+      "frozen_requests",
+      "ai_agent",
+      "network_monitor",
+      "system_control",
+      "root_manager",
+      "voice_assistant",
+      "wifi_manager",
+      "handlers_economy",
+      "handlers_economy",
+      "autonomy",
+      "database",
+      "system_control",
+      "root_manager",
+      "voice_assistant",
+      "wifi_manager"
+    ],
+    "analyzed": true
+  },
+  "profile": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508902",
+    "needs": [
+      "database"
+    ],
+    "analyzed": true
+  },
+  "terminal_chat": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508921",
+    "needs": [
+      "app_controller",
+      "app_controller",
+      "voice_assistant",
+      "system_prompt",
+      "config",
+      "network_monitor",
+      "network_monitor",
+      "bot",
+      "network_monitor",
+      "system_control",
+      "root_manager",
+      "wifi_manager",
+      "app_controller",
+      "error_fixer",
+      "emotions",
+      "voice_assistant",
+      "system_control",
+      "root_manager",
+      "wifi_manager"
+    ],
+    "analyzed": true
+  },
+  "auto_import": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508932",
+    "needs": [],
+    "analyzed": true
+  },
+  "emotions": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508941",
+    "needs": [],
+    "analyzed": true
+  },
+  "autonomy": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508948",
+    "needs": [],
+    "analyzed": true
+  },
+  "vision": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508954",
+    "needs": [],
+    "analyzed": true
+  },
+  "file_analyzer": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508961",
+    "needs": [],
+    "analyzed": true
+  },
+  "auto_improve": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508968",
+    "needs": [],
+    "analyzed": true
+  },
+  "consciousness": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508974",
+    "needs": [],
+    "analyzed": true
+  },
+  "auto_install": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508981",
+    "needs": [],
+    "analyzed": true
+  },
+  "games": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508986",
+    "needs": [
+      "desires",
+      "desires",
+      "consciousness",
+      "consciousness"
+    ],
+    "analyzed": true
+  },
+  "attachments": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508992",
+    "needs": [],
+    "analyzed": true
+  },
+  "dreams": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.508998",
+    "needs": [],
+    "analyzed": true
+  },
+  "self_reflection": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509004",
+    "needs": [],
+    "analyzed": true
+  },
+  "creativity": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509010",
+    "needs": [
+      "desires",
+      "consciousness",
+      "consciousness",
+      "consciousness",
+      "sleep",
+      "consciousness",
+      "consciousness",
+      "consciousness"
+    ],
+    "analyzed": true
+  },
+  "holidays": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509018",
+    "needs": [],
+    "analyzed": true
+  },
+  "weather": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509024",
+    "needs": [
+      "consciousness",
+      "consciousness"
+    ],
+    "analyzed": true
+  },
+  "auto_imports": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509030",
+    "needs": [],
+    "analyzed": true
+  },
+  "desires": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509036",
+    "needs": [],
+    "analyzed": true
+  },
+  "happ_control": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509042",
+    "needs": [],
+    "analyzed": true
+  },
+  "telegram_proxy": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509049",
+    "needs": [],
+    "analyzed": true
+  },
+  "ai_agent": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509054",
+    "needs": [
+      "bot",
+      "self_learning",
+      "desires",
+      "consciousness",
+      "self_learning",
+      "weather",
+      "consciousness",
+      "autonomy",
+      "consciousness",
+      "bot"
+    ],
+    "analyzed": true
+  },
+  "handlers_main": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509061",
+    "needs": [
+      "config",
+      "config_network",
+      "system_prompt",
+      "progress",
+      "behavior",
+      "sleep",
+      "fatigue",
+      "reactions",
+      "attachments",
+      "self_reflection",
+      "emotions",
+      "consciousness",
+      "error_reporter",
+      "self_learning",
+      "message_filter",
+      "games",
+      "frozen_requests",
+      "handlers_owner",
+      "handlers_economy",
+      "handlers_media",
+      "handlers_commands",
+      "bot",
+      "history",
+      "security",
+      "security",
+      "database"
+    ],
+    "analyzed": true
+  },
+  "network_monitor": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509068",
+    "needs": [],
+    "analyzed": true
+  },
+  "app_controller": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509074",
+    "needs": [],
+    "analyzed": true
+  },
+  "wifi_manager": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509080",
+    "needs": [],
+    "analyzed": true
+  },
+  "voice_assistant": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509086",
+    "needs": [],
+    "analyzed": true
+  },
+  "device_admin": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509092",
+    "needs": [],
+    "analyzed": true
+  },
+  "system_control": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509098",
+    "needs": [],
+    "analyzed": true
+  },
+  "root_manager": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509104",
+    "needs": [],
+    "analyzed": true
+  },
+  "frozen_requests": {
+    "required": false,
+    "auto_discovered": true,
+    "discovered_at": "2026-08-30T19:00:57.509110",
+    "needs": [
+      "consciousness",
+      "desires",
+      "system_prompt",
+      "config"
+    ],
+    "analyzed": true
+  }
+}

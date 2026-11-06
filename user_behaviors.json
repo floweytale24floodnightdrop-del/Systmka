@@ -1,0 +1,563 @@
+{
+  "users": {
+    "7435271379": {
+      "name": "✿_𓏴",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5,
+        "aggression": 3.500000000000003,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.0,
+        "emotionality": 5
+      },
+      "history": [
+        {
+          "time": "2026-10-25T20:39:42.156386",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:35:38.447713",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:36:00.382046",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:46:02.707117",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:46:11.523071",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:47:13.952097",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:53:59.936943",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:39:43.826303",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:53:09.857883",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:55:36.019173",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:57:03.237298",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T22:12:35.663910",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T22:21:48.852450",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T22:22:13.775813",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T22:33:36.145881",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T20:39:42.156375",
+      "last_updated": "2026-10-27T22:33:36.145887",
+      "messages_count": 15,
+      "avg_score": 5.133333333333334
+    },
+    "6282147871": {
+      "name": "Ꮋуцʍᴇᴩ",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5.3,
+        "aggression": 4.600000000000001,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.75,
+        "emotionality": 5.2
+      },
+      "history": [
+        {
+          "time": "2026-10-25T20:45:59.212345",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:46:43.141144",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:47:29.548798",
+          "text": "",
+          "score": 8,
+          "tone": "дружелюбный",
+          "character": "нейтральный",
+          "emotions": "positive"
+        },
+        {
+          "time": "2026-10-25T20:49:46.284775",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T20:45:59.212333",
+      "last_updated": "2026-10-25T20:49:46.284783",
+      "messages_count": 4,
+      "avg_score": 6.0
+    },
+    "777000": {
+      "name": "Telegram",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5,
+        "aggression": 4.800000000000001,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.0,
+        "emotionality": 5
+      },
+      "history": [
+        {
+          "time": "2026-10-25T20:46:22.233628",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:46:28.614865",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T20:46:22.233618",
+      "last_updated": "2026-10-25T20:46:28.614871",
+      "messages_count": 2,
+      "avg_score": 5.0
+    },
+    "1087968824": {
+      "name": "Group",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 4.7,
+        "aggression": 4.300000000000003,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 4.625,
+        "emotionality": 5.2
+      },
+      "history": [
+        {
+          "time": "2026-10-25T20:47:06.615552",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:49:33.514467",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:49:48.041140",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:50:38.367577",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:54:11.456631",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:54:59.492068",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:55:15.711256",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:55:59.355817",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T20:56:56.087295",
+          "text": "",
+          "score": 2,
+          "tone": "грубый",
+          "character": "нейтральный",
+          "emotions": "negative"
+        },
+        {
+          "time": "2026-10-25T21:01:56.786230",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T21:02:31.597885",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T20:47:06.615541",
+      "last_updated": "2026-10-25T21:02:31.597892",
+      "messages_count": 11,
+      "avg_score": 4.7272727272727275
+    },
+    "8946758568": {
+      "name": "𝔽𝕋𝙁 𝙡 𝙤 𝙬 𝙚 𝙮2̒ͪ͛ ̱͇̻͓̤͓̤̲̗͊͑̉͊҈̞̪͎̗͚̭͇̜̂̀ͥ̑̽̽͆ͣ̆̔͑ͦͤ̾̚4̾̽͋̐̆̚",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5,
+        "aggression": 4.800000000000001,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.0,
+        "emotionality": 5
+      },
+      "history": [
+        {
+          "time": "2026-10-25T21:01:02.459461",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T21:10:14.554876",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T21:01:02.459449",
+      "last_updated": "2026-10-25T21:10:14.554882",
+      "messages_count": 2,
+      "avg_score": 5.5
+    },
+    "8060461736": {
+      "name": "𝑆𝑦𝑠𝑡𝑚𝑘𝑎.𝑎𝑖",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5,
+        "aggression": 3.200000000000003,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.0,
+        "emotionality": 5
+      },
+      "history": [
+        {
+          "time": "2026-10-25T21:15:09.274705",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T21:16:20.464269",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-25T21:16:23.516811",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:33:51.207055",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:48:56.878809",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:49:43.034108",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:49:55.338285",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:56:13.871015",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T18:58:38.222760",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:02:36.972599",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:04:27.487078",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:05:15.620636",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:05:24.882168",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-26T19:05:33.506000",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:47:58.222664",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:48:36.738475",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:49:49.916773",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        },
+        {
+          "time": "2026-10-27T21:50:30.524204",
+          "text": "",
+          "score": 6,
+          "tone": "любопытный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-25T21:15:09.274693",
+      "last_updated": "2026-10-27T21:50:30.524210",
+      "messages_count": 18,
+      "avg_score": 5.333333333333333
+    },
+    "7388081259": {
+      "name": "[𝑻𝑹𝑼𝑬 𝑫𝑼𝑺𝑻 | #𝑭𝑻𝑭𝟐𝟒]",
+      "behavior": "нейтральный",
+      "traits": {
+        "friendliness": 5,
+        "aggression": 4.9,
+        "humor": 5,
+        "seriousness": 5,
+        "playfulness": 5,
+        "respect": 5.0,
+        "emotionality": 5
+      },
+      "history": [
+        {
+          "time": "2026-10-26T18:33:52.371328",
+          "text": "",
+          "score": 5,
+          "tone": "нейтральный",
+          "character": "нейтральный",
+          "emotions": "neutral"
+        }
+      ],
+      "first_seen": "2026-10-26T18:33:52.371313",
+      "last_updated": "2026-10-26T18:33:52.371332",
+      "messages_count": 1,
+      "avg_score": 5.0
+    }
+  },
+  "global_mood": "neutral",
+  "last_update": null
+}

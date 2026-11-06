@@ -1,0 +1,24 @@
+# Секреты и локальные настройки
+config_local.py
+key_stats.json
+.env
+
+# Мусор Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Логи и данные
+bot.log
+boot.log
+error.log
+*.pid
+brain_state.json
+brain_state.dat
+brain_backups/
+trash/
+
+key_stats.json
+prompt_notes/

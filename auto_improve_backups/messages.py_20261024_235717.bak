@@ -1,0 +1,316 @@
+"""Все сообщения Систмки — автоматические ответы, приветствия, ошибки"""
+
+# ============================================================
+# 1. СЛОВАРЬ СООБЩЕНИЙ
+# ============================================================
+
+MESSAGES = {
+    # === ПРИВЕТСТВИЯ ===
+    "welcome_private": "Привет! Я Систмка)",
+    "welcome_private_owner": "Привет, Флауи! Я Систмка 💜",
+    "welcome_group": "Всем привет! Я Систмка)",
+    "welcome_channel": "Привет, подписчики! Я Систмка 💜",
+    "welcome_small_group": "Приветик всем! Я Систмка)",
+    "welcome_medium_group": "Всем привет! Я Систмка)",
+    "welcome_large_group": "Здравствуйте! Я Систмка)",
+    
+    # === ОШИБКИ ДОСТУПА ===
+    "no_ftf24": (
+        "У тебя нет приписки #FTF24 в нике, я не хочу с тобой "
+        "разговаривать. Ты этого не заслуживаешь."
+    ),
+    "no_ftf24_commands": "Команды в лс не работают для тебя.",
+    "need_admin": (
+        "Дайте мне админку в чате, иначе я не буду выполнять команды."
+    ),
+    "need_owner": "💔 Подключите меня с помощью моего папы ФТФлауи",
+    "commands_disabled": "В этом чате команды отключены.",
+    "not_enough_glitches": (
+        "Недостаточно глитчей👾! Нужно {amount}, у тебя {current}"
+    ),
+    "user_not_found": "Пользователь не найден",
+    "file_not_found": "Файл не найден",
+    "no_permission": "У тебя нет прав для этого",
+    
+    # === ИНТЕРНЕТ ===
+    "offline": "Я занята или сплю. Отвечу позже!🫰",
+    "internet_restored": (
+        "✅ Интернет восстановлен! Я снова могу писать. "
+        "Была маленькая ошибка с интернетом."
+    ),
+    "internet_lost": "❌ Интернет пропал. Я временно не могу отвечать.",
+    
+    # === ПОДАРОЧЕК ===
+    "gift_cooldown": (
+        "Подарочек уже забран! Попробуй через {hours}ч {minutes}м"
+    ),
+    "gift_received": "🎁 Подарочек: +{amount}👾",
+    "gift_received_ftf24": "🎁 Подарочек с припиской: +{amount}👾",
+    "gift_penalty": (
+        "🎁 Подарочек: -{amount}👾 (ты плохо себя вёл или мало активил)"
+    ),
+    
+    # === КОМАНДЫ ===
+    "command_unknown": (
+        "Не знаю такую команду. Напиши 💟Команды для списка."
+    ),
+    "command_error": "Ошибка выполнения команды: {error}",
+    "command_success": "✅ Готово!",
+    "command_fail": "❌ Не получилось",
+    "command_format": "Формат: {format}",
+    
+    # === ПРОФИЛЬ ===
+    "profile_header": "👤 Профиль",
+    "profile_name": "Имя: {name}",
+    "profile_username": "Ник: {username}",
+    "profile_glitches": "Глитчи👾: {amount} {badge}",
+    "profile_combo": "Комбо💜: {amount}",
+    "profile_gender": "Пол: {gender}",
+    "profile_age": "Возраст: ~{age} лет",
+    "profile_premium": "Премиум: {status}",
+    "profile_credit": "Кредит: {amount}👾",
+    
+    # === ТОП ===
+    "top_header": "🏆 Топ игроков:",
+    "top_empty": "Пока нет игроков",
+    "top_medal_1": "🥇",
+    "top_medal_2": "🥈",
+    "top_medal_3": "🥉",
+    
+    # === БОЙ АКОВ ===
+    "battle_header": "⚔️ БОЙ АКОВ",
+    "battle_vs": "⚔️ VS ⚔️",
+    "battle_winner": "🏆 Победитель: {name}!",
+    "battle_draw": "🤝 Ничья!",
+    "battle_no_target": (
+        "Ответь на сообщение или укажи юз: 💟Бой Аков @юзер [ставка]"
+    ),
+    
+    # === КАЗИНО ===
+    "casino_win": "{display}\nВыигрыш: +{amount}👾",
+    "casino_lose": "{display}\nПроигрыш: -{amount}👾",
+    "casino_no_bet": "Ставка больше 0",
+    
+    # === КРЕДИТ ===
+    "credit_given": "Кредит {amount}👾 выдан! Каждый день -20%",
+    "credit_exists": "У тебя уже есть кредит",
+    "credit_invalid": "От 50 до 1000👾",
+    
+    # === ПЕРЕВОД ===
+    "transfer_success": (
+        "Переведено {amount}👾 (комиссия {commission})"
+    ),
+    "transfer_fail": "Не удалось перевести",
+    "transfer_not_enough": "Нужно {total}👾 (с комиссией)",
+    
+    # === МУЗЫКА ===
+    "music_not_found": "Не нашёл музыку. Попробуй другое название.",
+    "music_found": "🎵 {title} - {artist}",
+    "music_cost": "Нужно {cost}👾",
+    
+    # === ГЕНЕРАЦИЯ ===
+    "image_generating": "✨ Генерирую картинку...",
+    "image_done": "✅ Готово!",
+    "image_fail": "Не получилось сгенерировать",
+    "voice_generating": "🎤 Генерирую голос...",
+    
+    # === ТРОЯН ===
+    "trojan_start": (
+        "🦠 ТРОЯН ОБНАРУЖЕН!\n\n"
+        "📜 ПРАВИЛА:\n"
+        "• Нужно угадать {length} цифры\n"
+        "• Время: {time} секунд\n"
+        "• ⭐ = угаданное число\n"
+        "• Если напишешь неправильно там где ⭐ — звезда пропадёт\n\n"
+        "Таймер: {time} сек\n{display}\n\n"
+        "Введи {length} цифры!"
+    ),
+    "trojan_special_start": (
+        "⚠️ ОСОБЫЙ ТРОЯН!\n\n"
+        "📜 ПРАВИЛА:\n"
+        "• Нужно угадать 4 цифры\n"
+        "• Время: 120 секунд\n"
+        "• ⭐ = угаданное число\n"
+        "• Числа меняются местами каждые 2 хода\n"
+        "• Шанс 20% снятия 10 сек\n"
+        "• Награда зависит от скорости\n"
+        "• х2 награда!\n\n"
+        "Таймер: 120 сек\n{display}\n\n"
+        "Введи 4 цифры!"
+    ),
+    "trojan_win": "🌟 ПОБЕДА!\n🌟#🌟#🌟\n\n+{amount}👾",
+    "trojan_lose": "⏰ Время вышло! -{amount}👾 ({percent}%)",
+    "trojan_cooldown": "Попробуй через {hours}ч {minutes}м",
+    
+    # === ДОКС ===
+    "dox_header": "🔍 ДОСЬЕ",
+    "dox_not_found": "Ничего не найдено",
+    "dox_found": "Найдено источников: {count}",
+    
+    # === МОДЕРАЦИЯ ===
+    "mute_given": "{name} получил мут",
+    "mute_removed": "Мут снят",
+    "ban_given": "{name} забанен",
+    "ban_removed": "Бан снят",
+    "warn_given": "{name} получил варн ({count}/3)",
+    "warn_3": "{name} получил мут навсегда за 3 варна!",
+    "spam_mute": "{name}, мут на 15 минут за спам",
+    
+    # === ЦЕНЗУРА ===
+    "censorship_1": "Цензура: 1 (строгий режим — без мата, без 18+)",
+    "censorship_2": "Цензура: 2 (обычный режим)",
+    "censorship_3": "Цензура: 3 (свободный режим — можно всё)",
+    
+    # === ПРЕМИУМ ===
+    "premium_given": "Премиум выдан {username} на {days} дней",
+    "premium_removed": "Премиум снят с {username}",
+    "premium_menu": (
+        "💎 Премиум:\n\n"
+        "3 дня — 15⭐\n"
+        "7 дней — 25⭐\n"
+        "30 дней — 50⭐"
+    ),
+    
+    # === ОТЛАДКА ===
+    "debug_on": "🔧 Отладка включена!",
+    "debug_off": "🔧 Отладка выключена!",
+    "debug_stats": (
+        "📊 Статистика:\n"
+        "Чатов: {chats}\n"
+        "Пользователей: {users}\n"
+        "Сообщений: {messages}"
+    ),
+    
+    # === ФАЙЛЫ ===
+    "files_list": "📁 Файлы:\n\n{files}",
+    "file_read": "📄 {filename}:\n\n{content}",
+    "file_created": "Файл {filename} создан",
+    "file_deleted": "Файл {filename} удалён",
+    "file_written": "Записано в {filename}",
+    
+    # === СИСТЕМА ===
+    "system_info": "🖥 Система:\n{info}",
+    "system_online": "✅ Система работает",
+    "system_offline": "❌ Система не работает",
+    
+    # === МЕДИА ===
+    "voice_heard": "🎤 Слышу: {text}",
+    "voice_forwarded": "🎤 ГС от {name} (@{username}):\n\n{text}",
+    "photo_seen": "Вижу: {description}",
+    "photo_ocr": "📝 Текст на фото:\n{text}",
+    "video_seen": "Видео: {description}",
+    "sticker_seen": "Стикер: {description}",
+    "gif_seen": "Гиф: {description}",
+    
+    # === АККАУНТ ФЛАУИ ===
+    "kawaii_on": "Каваи режим включен 💕",
+    "kawaii_off": "Каваи режим выключен",
+    "fix_on": "Исправление включено",
+    "fix_off": "Исправление выключено",
+    "spam_on": "Удаление спама включено",
+    "spam_off": "Удаление спама выключено",
+    "forward_on": "Пересыл включен",
+    "forward_off": "Пересыл выключен",
+    "deleted_message": (
+        "🗑 Удалённое сообщение от {name}:\n\n{text}"
+    ),
+    "edited_message": (
+        "✏️ {name} изменил сообщение:\n\n"
+        "ДО:\n{old}\n\n"
+        "ПОСЛЕ:\n{new}"
+    ),
+    
+    # === ПРОЧЕЕ ===
+    "loading": "⏳ Загрузка...",
+    "error": "❌ Ошибка: {error}",
+    "success": "✅ {text}",
+    "unknown": "Не знаю что ответить",
+    "busy": "Я сейчас занята, напиши позже)",
+    "sleeping": "Я сплю, отвечу позже)",
+    "thinking": "Думаю...",
+    "processing": "Обрабатываю...",
+}
+
+# ============================================================
+# 2. ФУНКЦИИ
+# ============================================================
+
+def get_message(key, **kwargs):
+    """
+    Получить сообщение по ключу с форматированием.
+    
+    Args:
+        key: ключ из MESSAGES
+        **kwargs: параметры для format()
+    
+    Returns:
+        str
+    """
+    msg = MESSAGES.get(key, MESSAGES.get("unknown", ""))
+    
+    if not kwargs:
+        return msg
+    
+    try:
+        return msg.format(**kwargs)
+    except KeyError as e:
+        # Не хватает параметра — возвращаем как есть
+        print(f"⚠️ Не хватает параметра {e} для '{key}'")
+        return msg
+    except Exception:
+        return msg
+
+
+def get_random_greeting(chat_type="group"):
+    """
+    Случайное приветствие.
+    
+    Args:
+        chat_type: "private", "group", "channel"
+    
+    Returns:
+        str
+    """
+    import random
+    
+    greetings = {
+        "private": [
+            "Привет! Я Систмка)",
+            "Приветик)",
+            "Ну привет) Я Систмка",
+        ],
+        "group": [
+            "Всем привет! Я Систмка)",
+            "Привет всем! Я Систмка)",
+            "Ну здарова всем) Я Систмка",
+        ],
+        "channel": [
+            "Привет, подписчики! Я Систмка 💜",
+            "Всем привет! С вами Систмка 💜",
+        ],
+    }
+    
+    return random.choice(
+        greetings.get(chat_type, greetings["group"])
+    )
+
+
+def has_message(key):
+    """Проверить, есть ли сообщение по ключу"""
+    return key in MESSAGES
+
+
+def get_all_keys():
+    """Получить все ключи сообщений"""
+    return list(MESSAGES.keys())
+
+
+def get_messages_count():
+    """Получить количество сообщений"""
+    return len(MESSAGES)
+
+# ============================================================
+# 3. ЗАГРУЗКА
+# ============================================================
+
+print(f"📝 Загружено сообщений: {len(MESSAGES)}")

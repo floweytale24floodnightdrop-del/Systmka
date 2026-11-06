@@ -1,0 +1,11 @@
+{
+  "total_requests": 58,
+  "successful_requests": 21,
+  "failed_requests": 37,
+  "model_usage": {
+    "conversation": 58
+  },
+  "key_usage": {},
+  "last_updated": "2026-10-27T21:57:07.478247",
+  "autonomous_decisions": 0
+}

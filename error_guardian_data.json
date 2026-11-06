@@ -1,0 +1,2561 @@
+{
+  "errors": [
+    {
+      "file": "./personality_builder.py",
+      "type": "SyntaxError",
+      "message": "closing parenthesis ']' does not match opening parenthesis '{' on line 105 (personality_builder.py, line 143)",
+      "line": 143,
+      "column": 17,
+      "hash": "6734be6695fb503f4262e852ae2ec409",
+      "timestamp": "2026-09-09T08:53:16.804839",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "./personality_analyzer.py",
+      "type": "SyntaxError",
+      "message": "closing parenthesis ']' does not match opening parenthesis '{' on line 60 (personality_analyzer.py, line 86)",
+      "line": 86,
+      "column": 17,
+      "hash": "4563b105791637e90bdaa5eae7ee2cab",
+      "timestamp": "2026-09-09T12:35:35.131218",
+      "status": "failed",
+      "backup": "error_guardian_backups/personality_analyzer.py_20260909_123605.bak",
+      "analysis": {
+        "cause": "Синтаксическая ошибка в коде",
+        "solution": "Проверьте синтаксис в указанной строке",
+        "example": "",
+        "complexity": "легко",
+        "time": 10,
+        "category": "синтаксис",
+        "full_analysis": ""
+      },
+      "solution": "Проверьте синтаксис в указанной строке"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка поиска логических ошибок: HTTPSConnectionPool(host='openrouter.ai', port=443): Max retries exceeded with url: /api/v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)')))",
+      "hash": "7fce7de54f9468d79d38d85121220864",
+      "timestamp": "2026-09-09T13:21:38.714311",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "Traceback (most recent call last):",
+      "hash": "3ae0122f12a81d1b4fac93830e67bbf1",
+      "timestamp": "2026-09-09T13:21:38.714459",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "NameError: name 'SYSTEM_PROMPT' is not defined",
+      "hash": "cc21446ea4896a731f8a99024cf3ee4a",
+      "timestamp": "2026-09-09T13:21:38.714512",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "./personality_analyzer.py",
+      "type": "SyntaxError",
+      "message": "closing parenthesis ']' does not match opening parenthesis '{' on line 60 (personality_analyzer.py, line 84)",
+      "line": 84,
+      "column": 17,
+      "hash": "b5472b07719665145849f4367ca34f2e",
+      "timestamp": "2026-09-09T16:13:21.099390",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "./personality_analyzer.py",
+      "type": "SyntaxError",
+      "message": "closing parenthesis ']' does not match opening parenthesis '{' on line 81 (personality_analyzer.py, line 105)",
+      "line": 105,
+      "column": 17,
+      "hash": "70b6fdfb728c841bda642ed867c23b16",
+      "timestamp": "2026-09-09T18:48:37.602094",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "❌ self_reflection — ОСТАЁТСЯ ЗАМОРОЖЕННЫМ (SyntaxError: name 'reflections' is used prior to global declara)",
+      "hash": "1fdc4fb3291b36a6ad45c889c310b6a5",
+      "timestamp": "2026-09-09T19:01:20.399089",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "❌ personality_analyzer — ОСТАЁТСЯ ЗАМОРОЖЕННЫМ (SyntaxError: closing parenthesis ']' does not match opening par)",
+      "hash": "ac0ac0058ef177f5063ff6c31b923368",
+      "timestamp": "2026-09-09T19:01:20.399540",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "❌ impression_manager — ОСТАЁТСЯ ЗАМОРОЖЕННЫМ (SyntaxError: closing parenthesis ']' does not match opening par)",
+      "hash": "0e3cb647b5f9e9d7caded307f621f5b0",
+      "timestamp": "2026-09-09T19:01:20.399689",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "❌ impression_manager — ОСТАЁТСЯ ЗАМОРОЖЕННЫМ (ImportError: cannot import name 'generate_new_thought' from 'pe)",
+      "hash": "b5de22f4ab6dccba3ca4f63a5e92ac54",
+      "timestamp": "2026-09-10T10:13:14.742243",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "❌ bot — ОСТАЁТСЯ ЗАМОРОЖЕННЫМ (NameError: name 'SYSTEM_PROMPT' is not defined)",
+      "hash": "5e93228034c5e7583be00a81e4432ec6",
+      "timestamp": "2026-09-10T10:19:10.777393",
+      "status": "detected",
+      "backup": null,
+      "analysis": null,
+      "solution": null
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "🎯 Всего сыграно: 0Traceback (most recent call last):",
+      "hash": "4eb99f68d740f417160947b8944917fb",
+      "timestamp": "2026-09-29T19:05:35.512770",
+      "status": "failed",
+      "backup": "error_guardian_backups\\bot.log_20260929_190535.bak",
+      "analysis": {
+        "cause": "Неизвестная причина",
+        "solution": "Проверьте код вручную",
+        "example": "",
+        "complexity": "средне",
+        "time": 10,
+        "category": "логика",
+        "full_analysis": ""
+      },
+      "solution": "Проверьте код вручную"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "UnicodeEncodeError: 'charmap' codec can't encode character '\\U0001f527' in position 0: character maps to <undefined>",
+      "hash": "f55435153ce96ef26ea799f35ba1e243",
+      "timestamp": "2026-09-29T19:05:35.512791",
+      "status": "failed",
+      "backup": "error_guardian_backups\\bot.log_20260929_190536.bak",
+      "analysis": {
+        "cause": "Неизвестная причина",
+        "solution": "Проверьте код вручную",
+        "example": "",
+        "complexity": "средне",
+        "time": 10,
+        "category": "логика",
+        "full_analysis": ""
+      },
+      "solution": "Проверьте код вручную"
+    },
+    {
+      "file": ".\\progress.py",
+      "type": "SyntaxError",
+      "message": "invalid syntax (progress.py, line 277)",
+      "line": 277,
+      "column": 4,
+      "hash": "5e79adb18824de3245f4cb8e30419641",
+      "timestamp": "2026-09-29T19:05:35.645842",
+      "status": "failed",
+      "backup": "error_guardian_backups\\progress.py_20260929_190536.bak",
+      "analysis": {
+        "cause": "Неверный синтаксис",
+        "solution": "Проверьте синтаксис в строке",
+        "example": "",
+        "complexity": "легко",
+        "time": 10,
+        "category": "синтаксис",
+        "full_analysis": ""
+      },
+      "solution": "Проверьте синтаксис в строке"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "ValueError: I/O operation on closed file.",
+      "hash": "2a13778ac91ecdbaa161ce0f86842980",
+      "timestamp": "2026-09-30T17:42:49.187292",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "ValueError: I/O operation on closed file.",
+      "hash": "2a13778ac91ecdbaa161ce0f86842980",
+      "timestamp": "2026-09-30T17:42:49.187357",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "ValueError: I/O operation on closed file.",
+      "hash": "2a13778ac91ecdbaa161ce0f86842980",
+      "timestamp": "2026-09-30T17:42:49.187419",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "ValueError: I/O operation on closed file.",
+      "hash": "2a13778ac91ecdbaa161ce0f86842980",
+      "timestamp": "2026-09-30T17:42:49.187440",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:22,046 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4e9e808f9c110998cd76ce5c197df0be",
+      "timestamp": "2026-10-24T19:27:40.604784",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:25,406 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "65cdc9a3ae1c05553462b525baf2358c",
+      "timestamp": "2026-10-24T19:27:40.604797",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:29,054 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "517e60edb9db9c5796d0ef70c8d1e477",
+      "timestamp": "2026-10-24T19:27:40.604802",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:33,192 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "398f674b29f68cae996a32d6bd72e1a6",
+      "timestamp": "2026-10-24T19:27:40.604805",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:38,314 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "eaec241132fb446d0f42f0597f5dfb50",
+      "timestamp": "2026-10-24T19:27:40.604809",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:45,409 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "7447b39ed8d2a9a814871957976010e5",
+      "timestamp": "2026-10-24T19:28:40.610800",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:27:56,842 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cac7edab0d84c52bebaed8c00e6ef917",
+      "timestamp": "2026-10-24T19:28:40.610809",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:28:15,945 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f22c5860441fc39b462e3cd577a1c076",
+      "timestamp": "2026-10-24T19:28:40.610812",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:28:51,058 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "92f24595e912958442c19fd5af96558b",
+      "timestamp": "2026-10-24T19:29:40.616973",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:29:55,067 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f7f78ab7ef3a6ce99c37e218a70b59e3",
+      "timestamp": "2026-10-24T19:30:40.623174",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:30:58,176 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dbfaecf6616ede37b7f520a734ad6b45",
+      "timestamp": "2026-10-24T19:31:40.633227",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:32:01,288 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "59278a35d4fbe23b276e417fa696ff09",
+      "timestamp": "2026-10-24T19:32:40.640482",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:33:04,389 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "34a5d1de491f0a095674a897201abd67",
+      "timestamp": "2026-10-24T19:33:40.646383",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:34:07,491 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f13447e057062b7419aaa2439e26071c",
+      "timestamp": "2026-10-24T19:34:40.655941",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:35:10,625 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "74ec216b4c2d95b06b2393b386f36263",
+      "timestamp": "2026-10-24T19:35:40.662806",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:36:13,744 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3c8c3b587cba929a80ac75e3b887707b",
+      "timestamp": "2026-10-24T19:36:40.671352",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:37:16,853 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "21a83382624586c8b4ade96542e7156d",
+      "timestamp": "2026-10-24T19:37:40.677529",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:38:20,244 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "adcc06e57e166d1576b25400579860df",
+      "timestamp": "2026-10-24T19:38:40.686753",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:39:23,338 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c78be7430b23de8d41da2375157a4718",
+      "timestamp": "2026-10-24T19:39:40.693537",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:40:26,497 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cc22674f2e893fa01133363aa6c3deca",
+      "timestamp": "2026-10-24T19:40:40.702516",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:41:29,597 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "007b13453a7ba9534280f3e3b8292d15",
+      "timestamp": "2026-10-24T19:41:40.710208",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:42:32,692 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "815036b2cf99cd236d9dc8105a21ed19",
+      "timestamp": "2026-10-24T19:42:40.716101",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:43:35,805 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "78e012e70369637f3241b9e8c4eebeae",
+      "timestamp": "2026-10-24T19:43:40.722795",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:44:38,919 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "34471dd27d6b341e85b90adcd95c4476",
+      "timestamp": "2026-10-24T19:44:40.729669",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:45:42,224 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "95cc463e4270eff78969346ce5e860e1",
+      "timestamp": "2026-10-24T19:46:40.737235",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:46:45,334 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0133703b503d651c267cd60480a74679",
+      "timestamp": "2026-10-24T19:47:40.743680",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:47:48,460 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1cafb2f46c991f51e4501cded7a9519e",
+      "timestamp": "2026-10-24T19:48:40.750265",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:48:51,816 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "92cd28dce2bba9af2b11dc388cdb4d87",
+      "timestamp": "2026-10-24T19:49:40.757060",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:49:54,908 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "87a481f3dfede21287d0d5b027c111ad",
+      "timestamp": "2026-10-24T19:50:40.763690",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "375b98b56476d695047b7e12e4720bad",
+      "timestamp": "2026-10-24T19:50:40.763709",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:50:59,765 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d3abfa80a35da9354915a09233a458cc",
+      "timestamp": "2026-10-24T19:51:40.771102",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:52:02,851 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2fbb1d9f40f745f896864bd30ae7580e",
+      "timestamp": "2026-10-24T19:52:40.777984",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:53:05,948 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fb8e8038f3516ffa6cc3edfcf96df273",
+      "timestamp": "2026-10-24T19:53:40.785630",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:54:09,039 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "7b81e734379f24ec8b46830c32d225b5",
+      "timestamp": "2026-10-24T19:54:40.791985",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:55:12,351 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cf342fa129d4807620ced9a4643d668e",
+      "timestamp": "2026-10-24T19:55:40.799075",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:56:15,461 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ccb37144b5226fd13d72407ccc22c582",
+      "timestamp": "2026-10-24T19:56:40.806206",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:57:18,550 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0c2fba90d5f1287c3d251edef431834d",
+      "timestamp": "2026-10-24T19:57:40.812922",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "6f61882c0b2bc78e5cb533e8a8a8ce28",
+      "timestamp": "2026-10-24T19:57:40.812934",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "b63fe734fb92a398e56e3c249645028b",
+      "timestamp": "2026-10-24T19:57:40.812940",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:58:21,643 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3be8a2798c54ca461b2439bfbe2bc130",
+      "timestamp": "2026-10-24T19:58:40.819508",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 19:59:24,974 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "61f2f6e920391ebfa6791f03f0ad7bb7",
+      "timestamp": "2026-10-24T19:59:40.826200",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:00:28,975 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "074f5ce7aa78c719f97b31d5fc408b8c",
+      "timestamp": "2026-10-24T20:00:40.834168",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:01:32,068 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9f94158f2fbb79a9b24bfa0298cae11f",
+      "timestamp": "2026-10-24T20:01:40.841146",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:02:35,167 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dfa2ca19bbe281f2efe4b66490e0ff8f",
+      "timestamp": "2026-10-24T20:02:40.847646",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:03:38,261 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "84b5f8ee2df7583178b92004edba5ce1",
+      "timestamp": "2026-10-24T20:03:40.854400",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:04:41,423 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2f933b84be3197b872660da6beac44fb",
+      "timestamp": "2026-10-24T20:05:40.862212",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:05:45,375 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8edf53cd44d6d874cdd02dc9b506b17d",
+      "timestamp": "2026-10-24T20:06:40.868576",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:06:48,559 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "75f98606d843d2f3a75fd191378de2ff",
+      "timestamp": "2026-10-24T20:07:40.875254",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:07:51,692 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0b3688b5a3463a852b1fd91d428541f7",
+      "timestamp": "2026-10-24T20:08:40.882142",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:08:54,787 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0fac20d9ff3f885df4242de2e77b6d62",
+      "timestamp": "2026-10-24T20:09:40.888753",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:09:58,257 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "052e4e2e52529b63d4c9590307637de8",
+      "timestamp": "2026-10-24T20:10:40.895105",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:11:01,714 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f15aa7eef87ad2a403acf391d43f6322",
+      "timestamp": "2026-10-24T20:11:40.902305",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:12:04,828 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "53317aa18a95ba1567007873874aeb2d",
+      "timestamp": "2026-10-24T20:12:40.909044",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:13:07,931 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0468bbaf6a2a8c757ec60117e9636c1f",
+      "timestamp": "2026-10-24T20:13:40.915402",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:14:11,037 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "301417c56d8004794ac2f5ff36c10b7f",
+      "timestamp": "2026-10-24T20:14:40.922114",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:15:14,131 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "59ba053355b2071c9c687ad2d0c19682",
+      "timestamp": "2026-10-24T20:15:40.928708",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:16:17,255 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dc5e93d0f14d5e2a12603d884e16e601",
+      "timestamp": "2026-10-24T20:16:40.935086",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:17:21,342 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2cf05c0cf43c22f3f47e8da8459ed9a6",
+      "timestamp": "2026-10-24T20:17:40.941672",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:18:24,444 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d74a4b24335eac50ec8b6afd42f380ef",
+      "timestamp": "2026-10-24T20:18:40.948374",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:19:27,560 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b200c5157ac276499453304d8d89d66c",
+      "timestamp": "2026-10-24T20:19:40.955306",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "6b0fb51944dbaf218d32dc4af6259896",
+      "timestamp": "2026-10-24T20:20:40.962307",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:20:30,878 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2556775a9df55df1023d6c8a37c19a19",
+      "timestamp": "2026-10-24T20:20:40.962318",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:21:33,974 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3bbd37856f0802825ccb1c3869a7f2cd",
+      "timestamp": "2026-10-24T20:21:40.969286",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:22:37,060 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9fb6f6d4c7c15874cdbed120fa1454b1",
+      "timestamp": "2026-10-24T20:22:40.976467",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:23:41,471 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f62d87f37f82dcace865cc40e48d331c",
+      "timestamp": "2026-10-24T20:24:40.984677",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:24:44,569 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3b645b2af290ad2ef0ca8e94edc784ec",
+      "timestamp": "2026-10-24T20:25:40.991048",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:25:47,656 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e8a90bc77b82a79e160ef498a5f5e65b",
+      "timestamp": "2026-10-24T20:26:41.001593",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:26:50,828 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "87c2a66685922f99af0ed3d468eb8d78",
+      "timestamp": "2026-10-24T20:27:41.008551",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "9c6050933a4e16429c9ec6d1c9133964",
+      "timestamp": "2026-10-24T20:28:41.018497",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:27:53,941 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "097e3cf8cf177bcd0e9254d127797a44",
+      "timestamp": "2026-10-24T20:28:41.018514",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:28:57,039 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8b21e113daf3e3c2fe79b7c616378a61",
+      "timestamp": "2026-10-24T20:29:41.025419",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:30:00,143 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4f9c7079a7289bb16862a7ba3716ba71",
+      "timestamp": "2026-10-24T20:30:41.032571",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:31:03,818 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "76cfcc991027e0fdcf780be5e98c7025",
+      "timestamp": "2026-10-24T20:31:41.041363",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:32:06,920 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "31f08f4449b24d2575d8657d3c9bb8ec",
+      "timestamp": "2026-10-24T20:32:41.048143",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:33:10,020 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "191eedf6653439a2f01ec32603d0a3b4",
+      "timestamp": "2026-10-24T20:33:41.054898",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:34:13,515 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1af9de1443b5bb0f17f85ba1963bcb56",
+      "timestamp": "2026-10-24T20:34:41.068932",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:35:16,619 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9bfb0880329b8f5d0e04146a3c6dcf12",
+      "timestamp": "2026-10-24T20:35:41.075826",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:36:19,708 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dbec029eb5912358dfd925da27d32959",
+      "timestamp": "2026-10-24T20:36:41.084691",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:37:22,794 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f7b3218a7a079132fe601aecd57bdc85",
+      "timestamp": "2026-10-24T20:37:41.092244",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:38:25,894 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "948f034ec7ad899b04a4281b5fb14040",
+      "timestamp": "2026-10-24T20:38:41.101335",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:39:28,980 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "47964a2d3b430974ebf40350642c9072",
+      "timestamp": "2026-10-24T20:39:41.109331",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:40:32,112 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "430d71642d9bef2dc73aee37ee7ffbe7",
+      "timestamp": "2026-10-24T20:40:41.116509",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:41:35,421 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c8551d7d0165c8017f7a04c864299023",
+      "timestamp": "2026-10-24T20:41:41.123298",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:42:38,519 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2fd673ed8c2b08176f2c672af043d188",
+      "timestamp": "2026-10-24T20:42:41.132872",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:43:41,627 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "caf75d920f07f332a04168913f3a3e32",
+      "timestamp": "2026-10-24T20:44:41.140412",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:44:44,717 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a7431406886be1153dee13ea18d55a72",
+      "timestamp": "2026-10-24T20:45:41.147324",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:45:47,805 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c1212aa8e36f3116e9859e31a59b7f6d",
+      "timestamp": "2026-10-24T20:46:41.157808",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:46:50,994 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "944c2fda9dea99649b53efde5d8d7afe",
+      "timestamp": "2026-10-24T20:47:41.164358",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:47:54,099 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e54685447bef0045ded8190e54eb07d2",
+      "timestamp": "2026-10-24T20:48:41.174279",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:48:57,192 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ee620ff9f4ad6fda8293be5356af3e28",
+      "timestamp": "2026-10-24T20:49:41.182722",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:50:00,294 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c68b3a3542f6c88978ef297009fefbce",
+      "timestamp": "2026-10-24T20:50:41.190523",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "45246c02db90284d20a189f20378c814",
+      "timestamp": "2026-10-24T20:51:41.200537",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:51:03,388 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "00ebe546700a7445365254d2e67fbb32",
+      "timestamp": "2026-10-24T20:51:41.200550",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:52:06,747 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "5bb8510e2e177de57d76c15f338574f1",
+      "timestamp": "2026-10-24T20:52:41.207582",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:53:09,868 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "208b70ffe00c502e278d76d722ef64c7",
+      "timestamp": "2026-10-24T20:53:41.214744",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:54:14,056 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1d81f36ec7b2994a26823d18b1fc49ef",
+      "timestamp": "2026-10-24T20:54:41.222289",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:55:17,151 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "db3e1370bab300dc12e742e482212870",
+      "timestamp": "2026-10-24T20:55:41.231668",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:56:20,229 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f30d0777bb3ff5d48b41662165daa3b1",
+      "timestamp": "2026-10-24T20:56:41.238448",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:57:23,318 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9414391e4214af7aac8c58341170554a",
+      "timestamp": "2026-10-24T20:57:41.245998",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "44a61b6afe6d4bae8da9073de246897d",
+      "timestamp": "2026-10-24T20:58:41.252373",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:58:26,398 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "51c04c9e93840b4b83b176bcf4bf2472",
+      "timestamp": "2026-10-24T20:58:41.252386",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 20:59:29,857 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "aa8b7239f07fb213439c3509a0456c76",
+      "timestamp": "2026-10-24T20:59:41.262050",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:00:32,937 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8e541764fbb2e2eefcc204b5ca435760",
+      "timestamp": "2026-10-24T21:00:41.269128",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:01:36,024 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "547edc986c65dc3c20c34c3c68d7512d",
+      "timestamp": "2026-10-24T21:01:41.276256",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:02:39,355 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ab7f2a269470669dbd0ecd16a726698a",
+      "timestamp": "2026-10-24T21:02:41.283938",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:03:42,458 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "06a40a00b0a8a1ed31664db7d082c62e",
+      "timestamp": "2026-10-24T21:04:41.296352",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:04:45,546 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b7ec67a80ee0de1feda8a30f38d6efa0",
+      "timestamp": "2026-10-24T21:05:41.304272",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:05:50,256 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f6b6225ea272afc393b9b0e1c4cf7d35",
+      "timestamp": "2026-10-24T21:06:41.312071",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:06:53,390 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1776230e193551f3439087c535d956da",
+      "timestamp": "2026-10-24T21:07:41.320196",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:07:56,486 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ad6dfd423b8d6b4b1fb9970c991f85c7",
+      "timestamp": "2026-10-24T21:08:41.328790",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:08:59,588 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "35b5e61cfebd1cbb93ce808b57384a88",
+      "timestamp": "2026-10-24T21:09:41.335923",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:10:02,680 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c6f3a96d3f1fdf6bd0b543d77a2eef95",
+      "timestamp": "2026-10-24T21:10:41.343724",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:11:05,779 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "38f455b07c7a7811f528f8857ddd5c5d",
+      "timestamp": "2026-10-24T21:11:41.352170",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:12:09,641 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "08225d16377a9bab9bfab18c2839e1bb",
+      "timestamp": "2026-10-24T21:12:41.360132",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:13:13,039 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "50def212d468bb102a11fac666a2dd82",
+      "timestamp": "2026-10-24T21:13:41.367313",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:14:16,134 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "45b012b7f56e64fdb8022bbe9557a784",
+      "timestamp": "2026-10-24T21:14:41.379330",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:15:19,262 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "67ae2057e4ca69648a9978b84c2f8ace",
+      "timestamp": "2026-10-24T21:15:41.390841",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:16:22,360 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9263dbdd2b7bacb3961c2c68d1d48174",
+      "timestamp": "2026-10-24T21:16:41.399197",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:17:25,450 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dc3a23dcc30679fee3d6911eef22254c",
+      "timestamp": "2026-10-24T21:17:41.408630",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:18:28,558 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "02a931af4aff0ae30ca35bb90de889d9",
+      "timestamp": "2026-10-24T21:18:41.417276",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:19:31,731 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f6302b469d6f1ce03543e4c43a23cd24",
+      "timestamp": "2026-10-24T21:19:41.425388",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:20:35,562 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "11058170ae89f57cdec9f4edc7b89c1b",
+      "timestamp": "2026-10-24T21:20:41.433265",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:21:38,666 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cd278d6614ef2208ffcf02b676157feb",
+      "timestamp": "2026-10-24T21:21:41.441753",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:22:41,759 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "915db93bd0584f4ff2b91fce08268189",
+      "timestamp": "2026-10-24T21:23:41.460614",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:23:45,091 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fa7066f2592fa3cbeb6d667a10a6bf1f",
+      "timestamp": "2026-10-24T21:24:41.469621",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:24:48,193 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ab407ab7c4ef63bed151fde7116ff2e4",
+      "timestamp": "2026-10-24T21:25:41.479303",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:25:51,286 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "62508d73347892041f18e0494924153e",
+      "timestamp": "2026-10-24T21:26:41.488758",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:26:55,146 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fe8dd2a1518afb09c7a66f703c7479a8",
+      "timestamp": "2026-10-24T21:27:41.498790",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:27:58,435 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "77d6a8c01303141949584ef5460a6f51",
+      "timestamp": "2026-10-24T21:28:41.509011",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "a03a7546fe3088a6ae449a5b5bf399b5",
+      "timestamp": "2026-10-24T21:28:41.509026",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "e85b5fdab1c61bb255f9fd51d326c246",
+      "timestamp": "2026-10-24T21:28:41.509036",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:29:01,554 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cebf7365e60a1f63bf018829443c75da",
+      "timestamp": "2026-10-24T21:29:41.521597",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:30:04,660 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "806f461627ef80293edc0d649ea5a2aa",
+      "timestamp": "2026-10-24T21:30:41.533862",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:31:07,762 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "701ff52b1f50678496e040a941988f7c",
+      "timestamp": "2026-10-24T21:31:41.543130",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:32:10,858 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4edf8c51ab7b70f05445c91ea2d4ed5c",
+      "timestamp": "2026-10-24T21:32:41.554078",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:33:13,975 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "216195b220ed212c46222c540fc77d97",
+      "timestamp": "2026-10-24T21:33:41.566848",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:34:20,049 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c3733c3cd9e187f72c950ad0d64af7aa",
+      "timestamp": "2026-10-24T21:34:41.576323",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:35:23,154 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "42850add034709227706e3cc54f2371b",
+      "timestamp": "2026-10-24T21:35:41.589637",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:36:26,261 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c4737bbeb1d06f22ef59b8a6e802788d",
+      "timestamp": "2026-10-24T21:36:41.599505",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:37:29,388 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8db9956ce2409dbbdb8f7482634ec5e7",
+      "timestamp": "2026-10-24T21:37:41.609276",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:38:32,487 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "6fc4df74a40710a5a66d07cdf2824dad",
+      "timestamp": "2026-10-24T21:38:41.620940",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:39:35,584 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c83c23b9f331046fac844a4d1aea58c1",
+      "timestamp": "2026-10-24T21:39:41.630792",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:40:38,688 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a4eace02bf5790f8c9c2c45b04bba6a9",
+      "timestamp": "2026-10-24T21:40:41.640190",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:41:44,459 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3d97d8321f7c136a062d1e5c84064466",
+      "timestamp": "2026-10-24T21:42:41.652360",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:42:47,591 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "66222008fe3d9aac3426e66b692563ce",
+      "timestamp": "2026-10-24T21:43:41.660259",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:43:50,708 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1283ce4f261e856ce9ffc1cc385b9342",
+      "timestamp": "2026-10-24T21:44:41.668119",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-24 21:44:54,078 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "034b3c06f01e665417d05e76ca95133a",
+      "timestamp": "2026-10-24T21:45:41.679272",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 8946758568: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "5273884ec2e963ca7f92a848ede5e971",
+      "timestamp": "2026-10-25T18:05:35.497285",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 7435271379: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "bc889224afcb89bb020ae313430c6ed3",
+      "timestamp": "2026-10-25T18:05:35.497323",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:20,925 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4c0736af2706234ce3091c3d35faf078",
+      "timestamp": "2026-10-25T18:12:50.381718",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:24,278 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "56a0f646ea53648fff0c7a2963f097b8",
+      "timestamp": "2026-10-25T18:12:50.381750",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:27,908 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9e50bb8a8f2ad25452c622217438e919",
+      "timestamp": "2026-10-25T18:12:50.381772",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:32,001 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "97b7ede35d512be5dd10bef3a61c42b6",
+      "timestamp": "2026-10-25T18:12:50.381792",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:37,104 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8d5210600934555afe6a906f19509aea",
+      "timestamp": "2026-10-25T18:12:50.381812",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:44,201 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "eed04ec4eb08e2ee719b39fac5fd7fc8",
+      "timestamp": "2026-10-25T18:12:50.381831",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:11:55,302 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e5f85feae798a4a914a0980b56b82a7e",
+      "timestamp": "2026-10-25T18:12:50.381850",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:12:14,403 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "10350ca14f7287ccbea27608a14a5899",
+      "timestamp": "2026-10-25T18:12:50.381868",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:12:49,558 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "7ed47ec668acc35c6aa45a0d0b338900",
+      "timestamp": "2026-10-25T18:12:50.381887",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:13:52,652 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f51ce9317ddb446c9c8dc99dddb5e3ee",
+      "timestamp": "2026-10-25T18:31:10.945175",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:14:56,457 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "50a8f72a148735b79289db913efab127",
+      "timestamp": "2026-10-25T18:31:10.945196",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:15:59,543 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cb7b614ddc10a4c966a6040a85d764bf",
+      "timestamp": "2026-10-25T18:31:10.945208",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:17:02,856 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b57de2d27c678b7c74a1b333ef07f7c1",
+      "timestamp": "2026-10-25T18:31:10.945219",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:18:05,964 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "349501b1bc71627d872e537187fcef72",
+      "timestamp": "2026-10-25T18:31:10.945233",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:19:09,061 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "6f87b3be6d6c8fc31e949c8bee4eef5c",
+      "timestamp": "2026-10-25T18:31:10.945246",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:20:12,798 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "57cb425b70f8739ed9952673bef1b10e",
+      "timestamp": "2026-10-25T18:31:10.945259",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:21:15,895 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c17e9a91b08377cf0049c23dbd322567",
+      "timestamp": "2026-10-25T18:31:10.945270",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:22:19,364 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d537a804341c0bf33f45a069146aa564",
+      "timestamp": "2026-10-25T18:31:10.945281",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:23:22,478 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "6fba5dfc4a8d2d61555765c7b7905a61",
+      "timestamp": "2026-10-25T18:31:10.945306",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:24:26,115 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "670da9f35ceadab9a93b041ecc96e38a",
+      "timestamp": "2026-10-25T18:31:10.945335",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:25:29,205 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a4413fd5effd02ea2695b24ca7bf6ba5",
+      "timestamp": "2026-10-25T18:31:10.945348",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:26:32,310 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8d80745f6b421753e1cf38dfd37a6feb",
+      "timestamp": "2026-10-25T18:31:10.945359",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:27:35,409 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4d73e4f3e134de04c52f718e79915049",
+      "timestamp": "2026-10-25T18:31:10.945434",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:28:38,511 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "4e7b2a68079e0bcd9c9a849f22797a50",
+      "timestamp": "2026-10-25T18:31:10.945458",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:29:41,914 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "5cb87acc40e0cca641615ec491db4d71",
+      "timestamp": "2026-10-25T18:31:10.945471",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 18:30:45,831 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b005b93699d7a8d8c686392a1fc66342",
+      "timestamp": "2026-10-25T18:31:10.945494",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:18:30,777 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "bf55c24b789b98525e1df5f80e4e1ad5",
+      "timestamp": "2026-10-25T19:33:10.198209",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:19:34,091 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "19212286d4e3fb594d30ad5ef5c2d975",
+      "timestamp": "2026-10-25T19:33:10.198237",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:20:55,768 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8dfac2a352c620504d8942507b8a991d",
+      "timestamp": "2026-10-25T19:33:10.198261",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:21:59,129 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e58d2229265d21167b2885eb1dbebeed",
+      "timestamp": "2026-10-25T19:33:10.198278",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:23:02,245 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d3370a6b335357864660d43c483769e3",
+      "timestamp": "2026-10-25T19:33:10.198293",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:35:40,516 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e7a5ffc2c809ed33a8651e9c7702d7f6",
+      "timestamp": "2026-10-25T19:36:25.614181",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:35:43,908 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ed51e0d2f34ebb62bf8c638d8bb8ff56",
+      "timestamp": "2026-10-25T19:36:25.614214",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:35:47,552 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0a6cd7441c3ff7d11329367b047f54bc",
+      "timestamp": "2026-10-25T19:36:25.614242",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:35:51,658 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8d56acf6feec015456aca8163e6ccea2",
+      "timestamp": "2026-10-25T19:36:25.614268",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:35:56,778 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "932178d48d3e5ab39f3ca441f2924180",
+      "timestamp": "2026-10-25T19:36:25.614290",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:36:03,883 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b36fb62459a80e083cebe7a4c65e3acb",
+      "timestamp": "2026-10-25T19:36:25.614312",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:36:14,988 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "66812550269dd8e69c200226e727f5c6",
+      "timestamp": "2026-10-25T19:36:25.614333",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:36:34,116 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d1474e1fc31391f25f9ff4fa74bc754b",
+      "timestamp": "2026-10-25T19:37:25.653180",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:37:09,338 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c0690e9a65d6d3c7bb8df661d66d6379",
+      "timestamp": "2026-10-25T19:37:25.653217",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:38:12,447 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0a0f537ecbfafc7dfef38761d856eaef",
+      "timestamp": "2026-10-25T19:38:25.681347",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:39:15,549 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "aa822245c43009a958611bc268f34631",
+      "timestamp": "2026-10-25T19:49:37.027271",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "36e09e788fc758285939190e3656249a",
+      "timestamp": "2026-10-25T19:49:37.027303",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "b485315e1aacb4827f733c78a3012c5b",
+      "timestamp": "2026-10-25T19:49:37.027316",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "8300025034f2bfb1de244766bf9c6c31",
+      "timestamp": "2026-10-25T19:49:37.027328",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:40:18,657 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0d173a21271d645f1f069abde43d6756",
+      "timestamp": "2026-10-25T19:49:37.027339",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:41:21,754 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "41f3514423b90f2f004a7b8d9e3330e2",
+      "timestamp": "2026-10-25T19:49:37.027354",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:42:24,868 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "81dbe180ad1748bbda2fcf1a0070fc57",
+      "timestamp": "2026-10-25T19:49:37.027372",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:43:28,097 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3fc0ddf0aa3fb8b7594677cd89d06749",
+      "timestamp": "2026-10-25T19:49:37.027393",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:44:31,227 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "63b618bdcd9b2378bb866b0cb6b1becb",
+      "timestamp": "2026-10-25T19:49:37.027408",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:45:34,329 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "193435ce32d84242c43acf8c967271a4",
+      "timestamp": "2026-10-25T19:49:37.027423",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:46:38,229 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "0472406bdfd8a806b02a5dca82add35f",
+      "timestamp": "2026-10-25T19:49:37.027438",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:47:41,351 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "67aff3bddde03e5bbeb3a8f443ba3f89",
+      "timestamp": "2026-10-25T19:49:37.027452",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:48:44,476 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ddec55930e7e4d62ccbac297e7f1bff9",
+      "timestamp": "2026-10-25T19:49:37.027468",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:49:47,606 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "26edf0767bb63a6f3e7f3b10c8fa79b5",
+      "timestamp": "2026-10-25T19:50:37.032711",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:50:50,729 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "736ad2e1441e87b7952c6d1ae255bb16",
+      "timestamp": "2026-10-25T19:51:37.037862",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:51:53,845 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "dfe6edaee5c7f521636683fa5c0764d9",
+      "timestamp": "2026-10-25T19:52:37.041608",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:52:57,013 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8e811c28aaa85e263886c46de7722e66",
+      "timestamp": "2026-10-25T19:53:37.047295",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:54:00,128 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e266f16b96210984030999eee95c6b90",
+      "timestamp": "2026-10-25T19:54:37.050935",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:55:03,250 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "069ad6b881bc80249f02cc23cd93b1fa",
+      "timestamp": "2026-10-25T19:55:37.056183",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:56:06,392 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b100a966d7821633b9d3e537b50c6c49",
+      "timestamp": "2026-10-25T19:56:37.060238",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:57:09,777 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "efee7412dbf69c8a87c9185f399683d0",
+      "timestamp": "2026-10-25T19:57:37.065433",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:58:13,208 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3796f6515d727cfe0f7affd82f71261e",
+      "timestamp": "2026-10-25T19:58:37.070584",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 19:59:16,349 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "17cc0f02f1f5b77afeffefd39f9e9d6f",
+      "timestamp": "2026-10-25T19:59:37.075688",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:00:19,521 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d807ffd7a207be898fa8c3827824330f",
+      "timestamp": "2026-10-25T20:00:37.081110",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:01:22,628 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "50ebf8966d353d3a1a40e0a9a24bfeb5",
+      "timestamp": "2026-10-25T20:01:37.084937",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:02:25,826 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "c1966dff6b930fa38184fb58abd8f222",
+      "timestamp": "2026-10-25T20:02:37.089985",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:03:28,940 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "f034e094c3fff4b767b62b20ae3afa70",
+      "timestamp": "2026-10-25T20:03:37.097059",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:04:32,059 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "2cc2532d985682f2f08dfa2cda1dbe2f",
+      "timestamp": "2026-10-25T20:04:37.102504",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:05:35,183 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "1d164b1da3e379f4000e4fb8e286a53e",
+      "timestamp": "2026-10-25T20:05:37.107861",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:06:38,309 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "86b1f595dac2a90efb08d1a2c3982483",
+      "timestamp": "2026-10-25T20:07:37.113801",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:07:42,015 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ed6cd44f2cf7d7ac9d8b1f31e2846c4b",
+      "timestamp": "2026-10-25T20:08:37.117765",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:08:45,109 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "90d7087be0a8f898aef5dff1971797d3",
+      "timestamp": "2026-10-25T20:09:37.123139",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:09:48,209 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "7e1045458fb86e2a2c2c50d0cd3e9240",
+      "timestamp": "2026-10-25T20:10:37.128327",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "a300882de2314a529d444e857ff21746",
+      "timestamp": "2026-10-25T20:10:37.128349",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "0e83112c656e71c43ae229de60cc739a",
+      "timestamp": "2026-10-25T20:10:37.128362",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "a9cc460b10e4b00578ac53d47a1cf0e1",
+      "timestamp": "2026-10-25T20:10:37.128375",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:10:51,325 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "aa1e46f529dfa529bafbf2efb798dd95",
+      "timestamp": "2026-10-25T20:11:37.133684",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:11:54,438 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d4c0c3b739f84798c2f4874ecee79e18",
+      "timestamp": "2026-10-25T20:12:37.137725",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:12:57,545 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "d1359cdc71cfd86def1d7bad8f49a14d",
+      "timestamp": "2026-10-25T20:13:37.147678",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:14:00,676 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fe1db2d6b87100fcdf6ae84fa7dcc9e2",
+      "timestamp": "2026-10-25T20:14:37.153043",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:15:03,808 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "94ce125fba5cd3074081527edb002185",
+      "timestamp": "2026-10-25T20:15:37.157241",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:16:06,918 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fc1634fdd4475a7701966694dc3d2596",
+      "timestamp": "2026-10-25T20:16:37.167930",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:17:10,024 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "93bc6e7d8c7d78201012f5a4e5278a66",
+      "timestamp": "2026-10-25T20:17:37.173782",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:18:13,676 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "837661f7c3df3065f7e9248a36ae235f",
+      "timestamp": "2026-10-25T20:18:37.179811",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:19:16,772 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ae475dc8e8c4d9d47b611e1cbbdb0c4a",
+      "timestamp": "2026-10-25T20:19:37.185485",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:20:19,874 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e5f26e3eb4cde573ef789f66dd7b86d0",
+      "timestamp": "2026-10-25T20:20:37.189536",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:21:22,980 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a36970ce502a1e61fa0417e5808beb17",
+      "timestamp": "2026-10-25T20:21:37.193897",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:22:26,081 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "fdca4c186ff123a28ee2517fdd688332",
+      "timestamp": "2026-10-25T20:22:37.198039",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:23:29,188 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "9a780b6d7b7ddf9d11c4ec212f123e43",
+      "timestamp": "2026-10-25T20:23:37.202805",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:24:32,306 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e1c36734e4b5c88e5561f880a9f6dd9e",
+      "timestamp": "2026-10-25T20:24:37.208066",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:25:35,423 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "3e464858af6bb5b3748dec42f61508a3",
+      "timestamp": "2026-10-25T20:25:37.214070",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:26:38,520 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "ccfc83308798645cc1912f0396d5af3f",
+      "timestamp": "2026-10-25T20:27:37.221447",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:27:41,617 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "332546d5fcee5eed24f7def44e50c742",
+      "timestamp": "2026-10-25T20:28:37.226693",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:28:45,048 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cfb773f413f473d982e8d16005f4d016",
+      "timestamp": "2026-10-25T20:29:37.232356",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:29:48,183 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "228c5f5165510cc1948529b0781ab6a3",
+      "timestamp": "2026-10-25T20:30:37.237919",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:30:51,305 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "32c4ac3ec5c639b582198b3ed00a371f",
+      "timestamp": "2026-10-25T20:31:37.242020",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:31:54,429 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "cfb3356a358222f2dd1aeb25491a1981",
+      "timestamp": "2026-10-25T20:32:37.247329",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:32:57,566 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "e83f72ef5f2f52d7967705af4731889b",
+      "timestamp": "2026-10-25T20:33:37.253568",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:34:00,680 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a4068bfcbd22f925ef1724eba4c47bad",
+      "timestamp": "2026-10-25T20:34:37.259314",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:35:03,817 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "b64d2a56486bff439223d339818dcfa3",
+      "timestamp": "2026-10-25T20:35:37.264904",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:36:06,933 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "a436b40b0c74196983ef7caade74250b",
+      "timestamp": "2026-10-25T20:36:37.270541",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:37:10,050 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "bdf05e48804fc1b09aa41f884527bcd4",
+      "timestamp": "2026-10-25T20:37:37.276501",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "2026-10-25 20:38:13,161 (__init__.py:1301 MainThread) ERROR - TeleBot: \"Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: can't use ge",
+      "hash": "8f9c412a6c415abb9a2d750fcea1571a",
+      "timestamp": "2026-10-25T20:38:37.282034",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "79c17126af0fcee17a5c4300077167a3",
+      "timestamp": "2026-10-25T20:40:37.290438",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "87611a22ebd84250c24bed81f5a33bfa",
+      "timestamp": "2026-10-25T20:40:37.290457",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "c94020e418661f61adece45ef3f7a5c0",
+      "timestamp": "2026-10-25T20:40:37.290472",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "5e0a10fe54ed0a758d05de9b0c69aa63",
+      "timestamp": "2026-10-25T21:11:37.362415",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "6110aaa675e9ee1b4cfba2a4049ab908",
+      "timestamp": "2026-10-25T21:11:37.362453",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "670cc99acfca4a393b0f24012613da61",
+      "timestamp": "2026-10-25T21:11:37.362482",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 8946758568: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "3afb21c14093b0584d71d76c6e46bda2",
+      "timestamp": "2026-10-26T18:05:37.350639",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 7435271379: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "651e40a8f908a823eb25145d1fa97f55",
+      "timestamp": "2026-10-26T18:05:37.350666",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "cd3f61a713415b41a1f87652346c2fea",
+      "timestamp": "2026-10-26T19:03:42.770849",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "95dafe82352952be99f1a34541d92594",
+      "timestamp": "2026-10-26T19:04:42.783455",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "944a2029bfbe0d2e8b054f761adbbf8a",
+      "timestamp": "2026-10-26T19:04:42.783481",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 8946758568: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "9ad38f5bf5f9f3a9f38413339a06c366",
+      "timestamp": "2026-10-27T21:28:03.711565",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 7435271379: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "33ab9c52d201a2ab54e0e8681748c429",
+      "timestamp": "2026-10-27T21:28:03.711596",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 8946758568: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "ca98286d649df5c9200c751f63566fd3",
+      "timestamp": "2026-10-27T21:28:03.711630",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Не удалось отправить запрос владельцу 7435271379: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8949826028:AAG2_EV9cfKr_RJT9qG7ey_ds6Ct5AOVKdc/sendMessa",
+      "hash": "c8fd92caa822c8cfbf222428371af8b5",
+      "timestamp": "2026-10-27T21:28:03.711650",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "65bf89fe52f36c573022578cc0fa3e75",
+      "timestamp": "2026-10-27T21:59:03.839022",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "f40b3d49c7a86e85739dea830e2537b0",
+      "timestamp": "2026-10-27T21:59:03.839044",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "44504656a2cbad8b10cfc3aed7cfd9f0",
+      "timestamp": "2026-10-27T21:59:03.839059",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "167acbfef077c4149d81bfa3a22b6e66",
+      "timestamp": "2026-10-27T22:29:21.532947",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "c8475a837e63277946c82ba8aada292d",
+      "timestamp": "2026-10-27T22:29:21.532974",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка YouTube: HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /results?search_query=%D0%BC%D0%B5%D0%BC%D1%8B (Caused by NameResolutionError(\"<urllib3.connect",
+      "hash": "91a7aac7237d690b36b57a4f0f7e126f",
+      "timestamp": "2026-10-27T22:29:21.532990",
+      "status": "detected"
+    },
+    {
+      "file": "bot.log",
+      "type": "RuntimeError",
+      "message": "⚠️ Ошибка установки реакции: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: REACTION_INVALID",
+      "hash": "35fec53739cd69eac8a5847f59207666",
+      "timestamp": "2026-10-27T22:33:21.545834",
+      "status": "detected"
+    }
+  ],
+  "frozen_modules": [
+    "_base_client",
+    "_client",
+    "langsmith._openapi_client._base_client",
+    "tenacity.tornadoweb",
+    "torch.utils.tensorboard"
+  ],
+  "fix_history": [],
+  "routed_modules": [
+    "speedtest",
+    "speedtest",
+    "speedtest",
+    "speedtest",
+    "speedtest",
+    "speedtest",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks",
+    "langchain_core.documents",
+    "langchain_text_splitters.base",
+    "langchain_text_splitters.character",
+    "langchain_text_splitters.html",
+    "langchain_text_splitters.jsx",
+    "langchain_text_splitters.konlpy",
+    "langchain_text_splitters.latex",
+    "langchain_text_splitters.markdown",
+    "langchain_text_splitters.nltk",
+    "langchain_text_splitters.python",
+    "langchain_text_splitters.sentence_transformers",
+    "langchain_text_splitters.spacy",
+    "stable_baselines3.common.callbacks"
+  ],
+  "stats": {
+    "total_errors": 294,
+    "fixed_errors": 0,
+    "failed_fixes": 4,
+    "frozen_modules": 5,
+    "analyzed_errors": 4,
+    "auto_fixed": 0,
+    "unfrozen_at_startup": 5,
+    "ignored_modules": 0,
+    "asked_owner": 0,
+    "routed_to_other_version": 7
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "last_request_time": {},
+  "bot_status": {
+    "running": false,
+    "start_time": "2026-10-28T01:21:23.650511",
+    "messages_processed": 0,
+    "errors_count": 0,
+    "last_error": null,
+    "ai_requests_saved": 26,
+    "total_ai_requests": 15
+  },
+  "systmka_status": {
+    "online": true,
+    "last_seen": null
+  },
+  "saved_at": "2026-10-28T01:22:17.779494"
+}

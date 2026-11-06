@@ -1,0 +1,272 @@
+{
+  "brain_core_v1_20261026_192936.py": {
+    "original_file": ".\\brain_core.py",
+    "backup_time": "2026-10-26T19:29:36.357723",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 21863,
+    "hash": "0273b83a9c97cdddaa76f99648e1f0af",
+    "expires_at": "2026-11-02T19:29:36.357798"
+  },
+  "brain_core_v2_20261026_192936.py": {
+    "original_file": ".\\brain_core.py",
+    "backup_time": "2026-10-26T19:29:36.358357",
+    "version": 2,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 21863,
+    "hash": "0273b83a9c97cdddaa76f99648e1f0af",
+    "expires_at": "2026-11-02T19:29:36.358419"
+  },
+  "brain_core_v3_20261026_192936.py": {
+    "original_file": ".\\brain_core.py",
+    "backup_time": "2026-10-26T19:29:36.382990",
+    "version": 3,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 21863,
+    "hash": "0273b83a9c97cdddaa76f99648e1f0af",
+    "expires_at": "2026-11-02T19:29:36.383064"
+  },
+  "brain_layers__init___v1_20261026_193047.py": {
+    "original_file": ".\\brain_layers__init__.py",
+    "backup_time": "2026-10-26T19:30:47.790108",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 2343,
+    "hash": "407344647e59b22a6c054abde82c9ef6",
+    "expires_at": "2026-11-02T19:30:47.790175"
+  },
+  "brain_layerslayer1_neuromodulators_v1_20261026_193118.py": {
+    "original_file": ".\\brain_layerslayer1_neuromodulators.py",
+    "backup_time": "2026-10-26T19:31:18.370423",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3627,
+    "hash": "34749ead16e7b5e74e8c1e9ad69b6fff",
+    "expires_at": "2026-11-02T19:31:18.370493"
+  },
+  "brain_layers_init_v1_20261026_193300.py": {
+    "original_file": ".\\brain_layers_init.py",
+    "backup_time": "2026-10-26T19:33:00.267493",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 2196,
+    "hash": "62a74dd5835ec66ce8628efec437ee5c",
+    "expires_at": "2026-11-02T19:33:00.267577"
+  },
+  "brain_layer4_moods_v1_20261026_193351.py": {
+    "original_file": ".\\brain_layer4_moods.py",
+    "backup_time": "2026-10-26T19:33:51.138876",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3103,
+    "hash": "8e97f126c8f3006d1c03620d3f4c5adc",
+    "expires_at": "2026-11-02T19:33:51.138949"
+  },
+  "brain_layerslayer2_emotions_primary_v1_20261026_193503.py": {
+    "original_file": ".\\brain_layerslayer2_emotions_primary.py",
+    "backup_time": "2026-10-26T19:35:03.084680",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 4288,
+    "hash": "5f75c7e5b1760092cc2e602d84773309",
+    "expires_at": "2026-11-02T19:35:03.084708"
+  },
+  "brain_layer5_character_v1_20261026_193604.py": {
+    "original_file": ".\\brain_layer5_character.py",
+    "backup_time": "2026-10-26T19:36:04.407845",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3004,
+    "hash": "ff55081e73b90dec402904e956f12fe9",
+    "expires_at": "2026-11-02T19:36:04.407873"
+  },
+  "brain_layer6_cognitive_v1_20261026_193624.py": {
+    "original_file": ".\\brain_layer6_cognitive.py",
+    "backup_time": "2026-10-26T19:36:24.924822",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 8526,
+    "hash": "d2c39bf53b3c93f824f5b4b3e2efbcba",
+    "expires_at": "2026-11-02T19:36:24.924891"
+  },
+  "brain_layer7_motivation_v1_20261026_193655.py": {
+    "original_file": ".\\brain_layer7_motivation.py",
+    "backup_time": "2026-10-26T19:36:55.095797",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 5733,
+    "hash": "fea02cfdab5a678fab14e7feeaf37644",
+    "expires_at": "2026-11-02T19:36:55.095865"
+  },
+  "brain_layer9_homeostatic_v1_20261026_193807.py": {
+    "original_file": ".\\brain_layer9_homeostatic.py",
+    "backup_time": "2026-10-26T19:38:07.323381",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3491,
+    "hash": "ab6b049ab4048dc7fa051985747dbbd0",
+    "expires_at": "2026-11-02T19:38:07.323446"
+  },
+  "brain_layer10_dynamic_v1_20261026_193837.py": {
+    "original_file": ".\\brain_layer10_dynamic.py",
+    "backup_time": "2026-10-26T19:38:37.740346",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 12897,
+    "hash": "4a590d258630c29c173f6f9ef6f7caa0",
+    "expires_at": "2026-11-02T19:38:37.740415"
+  },
+  "brain_loader_v1_20261026_193858.py": {
+    "original_file": ".\\brain_loader.py",
+    "backup_time": "2026-10-26T19:38:58.077069",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 736,
+    "hash": "58e7112a81cc4c4e64aef68599b3618c",
+    "expires_at": "2026-11-02T19:38:58.077145"
+  },
+  "brain_modulators_v1_20261026_193929.py": {
+    "original_file": ".\\brain_modulators.py",
+    "backup_time": "2026-10-26T19:39:29.154458",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 24139,
+    "hash": "bb834cd0fd306f61d663d392154ad190",
+    "expires_at": "2026-11-02T19:39:29.154536"
+  },
+  "brain_emergence_v1_20261026_194040.py": {
+    "original_file": ".\\brain_emergence.py",
+    "backup_time": "2026-10-26T19:40:40.670562",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 14627,
+    "hash": "b694d73c93ac87868c00baf2a46c45be",
+    "expires_at": "2026-11-02T19:40:40.670631"
+  },
+  "brain_integration_v1_20261026_194121.py": {
+    "original_file": ".\\brain_integration.py",
+    "backup_time": "2026-10-26T19:41:21.896899",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 15346,
+    "hash": "4b7a0bb07070e1aca4d40a3ea7cd0061",
+    "expires_at": "2026-11-02T19:41:21.896973"
+  },
+  "brain_init_v1_20261026_194233.py": {
+    "original_file": ".\\brain_init.py",
+    "backup_time": "2026-10-26T19:42:33.795035",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 11742,
+    "hash": "9672eb4ca71f01a19cdc0a466b5aa424",
+    "expires_at": "2026-11-02T19:42:33.795104"
+  },
+  "brain_core_v4_20261026_194548.py": {
+    "original_file": ".\\brain_core.py",
+    "backup_time": "2026-10-26T19:45:48.015488",
+    "version": 4,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 15513,
+    "hash": "c3541ea92f22e04d4a5330e9c80f358d",
+    "expires_at": "2026-11-02T19:45:48.015679"
+  },
+  "brain_layer1_neuromodulators_v1_20261026_194619.py": {
+    "original_file": ".\\brain_layer1_neuromodulators.py",
+    "backup_time": "2026-10-26T19:46:19.224653",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3061,
+    "hash": "a8d56e42c44b7849318df6d0c030e04b",
+    "expires_at": "2026-11-02T19:46:19.224726"
+  },
+  "brain_layer2_emotions_primary_v1_20261026_194639.py": {
+    "original_file": ".\\brain_layer2_emotions_primary.py",
+    "backup_time": "2026-10-26T19:46:39.568017",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 3886,
+    "hash": "3c7097cf0055408eac0a9757f872f3bf",
+    "expires_at": "2026-11-02T19:46:39.568080"
+  },
+  "brain_persistence_v1_20261027_220305.py": {
+    "original_file": ".\\brain_persistence.py",
+    "backup_time": "2026-10-27T22:03:05.908548",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 13521,
+    "hash": "6e83395ba3d79f34e7e1e05b49afdab4",
+    "expires_at": "2026-11-03T22:03:05.908621"
+  },
+  "brain_persistence_v2_20261027_220305.py": {
+    "original_file": ".\\brain_persistence.py",
+    "backup_time": "2026-10-27T22:03:05.908817",
+    "version": 2,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 13521,
+    "hash": "6e83395ba3d79f34e7e1e05b49afdab4",
+    "expires_at": "2026-11-03T22:03:05.908887"
+  },
+  "reactions_v1_20261027_221043.py": {
+    "original_file": ".\\reactions.py",
+    "backup_time": "2026-10-27T22:10:43.155966",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 15949,
+    "hash": "f585017483522e17bfe4d56af00f2f16",
+    "expires_at": "2026-11-03T22:10:43.156087"
+  },
+  "brain_decisions_v1_20261027_221144.py": {
+    "original_file": ".\\brain_decisions.py",
+    "backup_time": "2026-10-27T22:11:44.568994",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 12018,
+    "hash": "f41f896793ec66a44d4ba5a2549b8823",
+    "expires_at": "2026-11-03T22:11:44.569056"
+  },
+  "brain_decisions_v2_20261027_221208.py": {
+    "original_file": ".\\brain_decisions.py",
+    "backup_time": "2026-10-27T22:12:08.267177",
+    "version": 2,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 10311,
+    "hash": "68532578992d9cd5513a813d91dd5651",
+    "expires_at": "2026-11-03T22:12:08.267257"
+  },
+  "handlers_main_v1_20261027_221329.py": {
+    "original_file": ".\\handlers_main.py",
+    "backup_time": "2026-10-27T22:13:29.770953",
+    "version": 1,
+    "source": "user",
+    "description": "Автоматический бэкап (ДО ИЗМЕНЕНИЯ)",
+    "size": 25074,
+    "hash": "5bafd88a07dfc6cdf8e10ee579e07ed0",
+    "expires_at": "2026-11-03T22:13:29.771015"
+  }
+}

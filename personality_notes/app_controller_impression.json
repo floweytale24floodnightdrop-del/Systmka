@@ -1,0 +1,43 @@
+{
+  "impression": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - close_app\n  - install_app\n  - uninstall_app\n  - list_installed_apps\n  - get_running_apps\n  - get_current_app\n  - get_app_path\n  - is_app_running\n  - format_installed_apps\n  - format_running_apps\n  - format_current_app\n  - format_app_info\n\n❤️ ЧТО НРАВИТСЯ:\nМне нравится структура и логика работы этого файла.\n\n💢 ЧТО БЕСИТ:\nИногда кажется, что код можно было бы написать проще.\n\n🔧 ЧТО ХОЧЕТСЯ ИЗМЕНИТЬ:\nХотелось бы улучшить читаемость и добавить комментарии.\n\n⭐ ЛУЧШАЯ ЧАСТЬ:\nБольше всего нравится основная логика — она работает чётко.\n\n😊 ЭМОЦИОНАЛЬНАЯ ОЦЕНКА:\nОтношусь к этому файлу с уважением.\n\n=== КОНЕЦ МНЕНИЯ ===",
+  "thoughts": [
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-24T23:22:45.893299"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-25T20:09:32.471209"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-25T22:16:02.284392"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-26T00:22:18.528168"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-26T20:34:00.666890"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-26T22:41:28.992175"
+    },
+    {
+      "text": "=== МОЁ МНЕНИЕ О app_controller.py ===\n\n📌 ОБЩЕЕ ВПЕЧАТЛЕНИЕ:\nЭтот файл является частью проекта Systmka. Он содержит классы и функции.\n\n📌 ФУНКЦИИ:\n  - find_app_executable\n  - _which\n  - open_app\n  - cl...",
+      "date": "2026-10-27T23:29:17.874734"
+    }
+  ],
+  "mood": "positive",
+  "updated": "2026-10-27T23:29:17.874778",
+  "version": 8,
+  "usage_count": 0,
+  "impression_size_kb": 0.794921875,
+  "has_likes": true,
+  "has_dislikes": true,
+  "has_wants": true,
+  "has_best_part": true,
+  "has_emotion": true
+}

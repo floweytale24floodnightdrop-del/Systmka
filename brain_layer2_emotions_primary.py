@@ -1,0 +1,48 @@
+"""brain_layer2_emotions_primary.py — 40 базовых эмоций."""
+
+from brain_core import Variable
+
+
+def get_layer2_variables():
+    return [
+        Variable("joy", "medium", base=50, volatility=1.5, tags=["emotion", "positive"]),
+        Variable("trust", "slow", base=50, volatility=0.8, tags=["emotion", "positive"]),
+        Variable("love", "slow", base=50, volatility=1.0, tags=["emotion", "positive"]),
+        Variable("calm", "slow", base=55, volatility=0.6, tags=["emotion", "positive"]),
+        Variable("excitement", "fast", base=40, volatility=2.0, tags=["emotion", "positive"]),
+        Variable("amusement", "medium", base=50, volatility=1.2, tags=["emotion", "positive"]),
+        Variable("satisfaction", "slow", base=50, volatility=0.8, tags=["emotion", "positive"]),
+        Variable("gratitude", "slow", base=50, volatility=0.8, tags=["emotion", "positive"]),
+        Variable("hope", "slow", base=55, volatility=0.7, tags=["emotion", "positive"]),
+        Variable("affection", "slow", base=50, volatility=0.9, tags=["emotion", "positive"]),
+        Variable("sadness", "slow", base=20, volatility=1.2, tags=["emotion", "negative"]),
+        Variable("fear", "fast", base=20, volatility=2.5, tags=["emotion", "negative"]),
+        Variable("anger", "fast", base=20, volatility=2.5, tags=["emotion", "negative"]),
+        Variable("disgust", "medium", base=15, volatility=1.5, tags=["emotion", "negative"]),
+        Variable("contempt", "medium", base=15, volatility=1.2, tags=["emotion", "negative"]),
+        Variable("shame", "slow", base=15, volatility=1.0, tags=["emotion", "negative"]),
+        Variable("guilt", "slow", base=15, volatility=1.0, tags=["emotion", "negative"]),
+        Variable("anxiety", "medium", base=25, volatility=1.8, tags=["emotion", "negative"]),
+        Variable("frustration", "medium", base=25, volatility=1.8, tags=["emotion", "negative"]),
+        Variable("disappointment", "slow", base=20, volatility=1.0, tags=["emotion", "negative"]),
+        Variable("surprise", "fast", base=30, volatility=2.0, tags=["emotion", "mixed"]),
+        Variable("anticipation", "medium", base=50, volatility=1.2, tags=["emotion", "mixed"]),
+        Variable("curiosity", "medium", base=60, volatility=1.5, tags=["emotion", "mixed"]),
+        Variable("boredom", "slow", base=30, volatility=1.0, tags=["emotion", "mixed"]),
+        Variable("confusion", "medium", base=20, volatility=1.5, tags=["emotion", "mixed"]),
+        Variable("interest", "medium", base=55, volatility=1.2, tags=["emotion", "mixed"]),
+        Variable("irritation", "fast", base=20, volatility=2.0, tags=["emotion", "mixed"]),
+        Variable("compassion", "slow", base=50, volatility=0.8, tags=["emotion", "mixed"]),
+        Variable("envy", "medium", base=15, volatility=1.2, tags=["emotion", "mixed"]),
+        Variable("jealousy", "medium", base=15, volatility=1.2, tags=["emotion", "mixed"]),
+        Variable("loneliness", "slow", base=20, volatility=1.0, tags=["emotion", "social"]),
+        Variable("belonging", "slow", base=55, volatility=0.8, tags=["emotion", "social"]),
+        Variable("pride", "slow", base=50, volatility=0.8, tags=["emotion", "social"]),
+        Variable("embarrassment", "medium", base=15, volatility=1.2, tags=["emotion", "social"]),
+        Variable("relief", "medium", base=50, volatility=1.0, tags=["emotion", "social"]),
+        Variable("awe", "medium", base=40, volatility=1.0, tags=["emotion", "social"]),
+        Variable("yearning", "slow", base=30, volatility=1.0, tags=["emotion", "social"]),
+        Variable("nostalgia", "slow", base=30, volatility=0.8, tags=["emotion", "social"]),
+        Variable("hate", "medium", base=10, volatility=1.5, tags=["emotion", "social"]),
+        Variable("despair", "slow", base=10, volatility=1.2, tags=["emotion", "social"]),
+    ]

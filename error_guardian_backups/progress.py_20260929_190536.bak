@@ -1,0 +1,425 @@
+"""Прогресс-бары и анимации — с разными стилями"""
+
+import os
+import time
+import tempfile
+import threading
+from datetime import datetime
+
+# ============================================================
+# 1. НАСТРОЙКИ
+# ============================================================
+
+# Стили анимаций
+ANIMATION_STYLES = {
+    "default": ["✨", "💫", "⭐️", "🌟"],
+    "command": ["🖤", "🤍", "💟", "💜", "👾"],
+    "loading": ["🟪", "🟣", "💜", "🟣", "🟪"],
+}
+
+# Символы для прогресс-бара
+PROGRESS_BARS = {
+    "empty": "⬜",
+    "filled": "🟪",
+    "done": "🟪",
+    "special": "💟",
+}
+
+# Папка для временных файлов
+TEMP_DIR = os.path.join(tempfile.gettempdir(), "systmka_progress")
+os.makedirs(TEMP_DIR, exist_ok=True)
+
+# Отслеживание активных потоков анимации
+_active_animations = {}
+
+# ============================================================
+# 2. АНИМАЦИЯ ТИПИНГА
+# ============================================================
+
+def show_typing_animation(bot, chat_id, estimated_time=8, style="default"):
+    """
+    Анимация написания с выбором стиля.
+    
+    Args:
+        bot: telebot instance
+        chat_id: ID чата
+        estimated_time: ожидаемое время (секунды)
+        style: "default", "command", "loading"
+    
+    Returns:
+        Message или None
+    """
+    if estimated_time < 3:
+        return None
+    
+    symbols = ANIMATION_STYLES.get(style, ANIMATION_STYLES["default"])
+    
+    try:
+        msg = bot.send_message(chat_id, symbols[0])
+    except Exception as e:
+        print(f"⚠️ Ошибка отправки анимации: {e}")
+        return None
+    
+    # Флаг для остановки
+    stop_flag = {"stop": False}
+    _active_animations[msg.message_id] = stop_flag
+    
+    def animate():
+        try:
+            interval = max(1.5, estimated_time / len(symbols))
+            
+            for symbol in symbols[1:]:
+                if stop_flag.get("stop"):
+                    break
+                
+                time.sleep(interval)
+                
+                if stop_flag.get("stop"):
+                    break
+                
+                try:
+                    bot.edit_message_text(
+                        symbol, chat_id, msg.message_id
+                    )
+                except Exception:
+                    break
+        except Exception:
+            pass
+        finally:
+            _active_animations.pop(msg.message_id, None)
+    
+    thread = threading.Thread(target=animate, daemon=True)
+    thread.start()
+    
+    return msg
+
+# ============================================================
+# 3. ЗАМЕНА АНИМАЦИИ НА ОТВЕТ
+# ============================================================
+
+def replace_with_answer(bot, chat_id, message_id, answer):
+    """
+    Заменить анимацию на ответ.
+    
+    Returns:
+        bool: успех
+    """
+    if not answer:
+        return False
+    
+    # Останавливаем анимацию
+    if message_id in _active_animations:
+        _active_animations[message_id]["stop"] = True
+    
+    try:
+        time.sleep(0.3)
+        bot.edit_message_text(answer, chat_id, message_id)
+        return True
+    except Exception:
+        try:
+            bot.send_message(chat_id, answer)
+            return True
+        except Exception:
+            return False
+
+# ============================================================
+# 4. ПРОГРЕСС-БАР
+# ============================================================
+
+def show_loading_animation(bot, chat_id, estimated_time, style="loading"):
+    """
+    Анимация загрузки с прогресс-баром.
+    
+    Для операций дольше 5 секунд.
+    
+    Returns:
+        Message или None
+    """
+    if estimated_time < 5:
+        return None
+    
+    # Если меньше 60 секунд — обычная анимация
+    if estimated_time < 60:
+        return show_typing_animation(
+            bot, chat_id, estimated_time, "default"
+        )
+    
+    # Для долгих операций — прогресс-бар
+    try:
+        progress_msg = bot.send_message(
+            chat_id,
+            "⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%",
+        )
+    except Exception:
+        return None
+    
+    stop_flag = {"stop": False}
+    _active_animations[progress_msg.message_id] = stop_flag
+    
+    def animate_progress():
+        try:
+            steps = 10
+            interval = max(1, estimated_time / steps)
+            
+            for i in range(1, steps + 1):
+                if stop_flag.get("stop"):
+                    break
+                
+                time.sleep(interval)
+                
+                if stop_flag.get("stop"):
+                    break
+                
+                percent = i * 10
+                
+                if i <= 3:
+                    filled = "🟪" * (i - 1) + "💟"
+                    empty = "⬜" * (steps - i)
+                else:
+                    filled = "🟪" * i
+                    empty = "⬜" * (steps - i)
+                
+                bar = filled + empty
+                
+                try:
+                    bot.edit_message_text(
+                        f"{bar} {percent}%",
+                        chat_id,
+                        progress_msg.message_id,
+                    )
+                except Exception:
+                    break
+            
+            # Завершаем
+            try:
+                bot.edit_message_text(
+                    "🟪🟪🟪🟪🟪🟪🟪🟪🟪🟪 100%",
+                    chat_id,
+                    progress_msg.message_id,
+                )
+                time.sleep(0.3)
+                bot.delete_message(chat_id, progress_msg.message_id)
+            except Exception:
+                pass
+        except Exception:
+            pass
+        finally:
+            _active_animations.pop(progress_msg.message_id, None)
+    
+    thread = threading.Thread(target=animate_progress, daemon=True)
+    thread.start()
+    
+    return progress_msg
+
+# ============================================================
+# 5. УДАЛЕНИЕ ПРОГРЕССА
+# ============================================================
+
+def delete_progress_message(bot, chat_id, message_id):
+    """
+    Удалить сообщение с прогрессом.
+    
+    Returns:
+        bool: успех
+    """
+    if message_id in _active_animations:
+        _active_animations[message_id]["stop"] = True
+    
+    try:
+        bot.delete_message(chat_id, message_id)
+        return True
+    except Exception:
+        return False
+
+# ============================================================
+# 6. ОЦЕНКА ВРЕМЕНИ
+# ============================================================
+
+def estimate_time(task_type, prompt_length=0):
+    """
+    Оценить время выполнения задачи.
+    
+    Returns:
+        int: секунды
+    """
+    estimates = {
+        "ai_response": 5,
+        "image_generation": 30,
+        "code_generation": 20,
+        "music_search": 15,
+        "music_download": 60,
+        "dox_search": 25,
+        "file_read": 5,
+        "file_write": 3,
+        "system_command": 10,
+        "self_improve": 60,
+        "hack_api": 60,
+        "voice_generation": 15,
+        "video_analysis": 20,
+        "list_members": 30,
+        "battle": 15,
+        "top": 10,
+        "history": 15,
+    }
+    
+    base_time = estimates.get(task_type, 15)
+    
+    if prompt_length > 50:
+        base_time += 3
+    if prompt_length > 100:
+        base_time += 5
+    if prompt_length > 300:
+        base_time += 10
+    
+    return min(base_time, 120)
+
+# ============================================================
+7. ОПРЕДЕЛЕНИЕ СТИЛЯ АНИМАЦИИ
+# ============================================================
+
+def get_animation_style(text):
+    """
+    Определить стиль анимации по тексту команды.
+    
+    Returns:
+        str: "command" или "default"
+    """
+    if not text:
+        return "default"
+    
+    if text.startswith('💟') or text.startswith('/'):
+        return "command"
+    
+    return "default"
+
+# ============================================================
+# 8. ПРОВЕРКА ДЛИТЕЛЬНОЙ ОПЕРАЦИИ
+# ============================================================
+
+def is_long_operation(task_type):
+    """Проверить, является ли операция длительной"""
+    long_operations = {
+        "list_members",
+        "battle",
+        "image_generation",
+        "music_download",
+        "self_improve",
+        "hack_api",
+        "dox_search",
+    }
+    return task_type in long_operations
+
+# ============================================================
+# 9. ОТПРАВКА ДЛИННЫХ СООБЩЕНИЙ
+# ============================================================
+
+def send_long_message(bot, chat_id, text, reply_to=None):
+    """
+    Отправить длинное сообщение (файлом если > 1000 символов).
+    
+    Returns:
+        bool: успех
+    """
+    if not text:
+        return False
+    
+    # Короткое — отправляем сразу
+    if len(text) <= 1000:
+        try:
+            reply_to_id = (
+                reply_to.message_id if reply_to is not None else None
+            )
+            bot.send_message(
+                chat_id, text,
+                reply_to_message_id=reply_to_id,
+            )
+            return True
+        except Exception:
+            return False
+    
+    # Длинное — файлом
+    filename = os.path.join(
+        TEMP_DIR,
+        f"response_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt",
+    )
+    
+    try:
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(text)
+        
+        with open(filename, "rb") as f:
+            reply_to_id = (
+                reply_to.message_id if reply_to is not None else None
+            )
+            bot.send_document(
+                chat_id, f,
+                caption="📄 Ответ слишком большой, засунула в файл",
+                reply_to_message_id=reply_to_id,
+            )
+        
+        return True
+    except Exception as e:
+        print(f"⚠️ Ошибка отправки файла: {e}")
+        
+        # Fallback — отправляем частями
+        try:
+            for i in range(0, len(text), 4000):
+                part = text[i:i+4000]
+                bot.send_message(chat_id, part)
+            return True
+        except Exception:
+            return False
+    
+    finally:
+        try:
+            if os.path.exists(filename):
+                os.remove(filename)
+        except Exception:
+            pass
+
+# ============================================================
+# 10. ЧАТ-АКШЕНЫ
+# ============================================================
+
+def show_upload_photo_animation(bot, chat_id):
+    """Показать "отправляю фото" """
+    try:
+        bot.send_chat_action(chat_id, 'upload_photo')
+        return True
+    except Exception:
+        return False
+
+
+def show_upload_video_animation(bot, chat_id):
+    """Показать "отправляю видео" """
+    try:
+        bot.send_chat_action(chat_id, 'upload_video')
+        return True
+    except Exception:
+        return False
+
+
+def show_record_voice_animation(bot, chat_id):
+    """Показать "записываю голос" """
+    try:
+        bot.send_chat_action(chat_id, 'record_voice')
+        return True
+    except Exception:
+        return False
+
+
+def show_typing_indicator(bot, chat_id):
+    """Показать "печатает" """
+    try:
+        bot.send_chat_action(chat_id, 'typing')
+        return True
+    except Exception:
+        return False
+
+# ============================================================
+# 11. ЗАГРУЗКА
+# ============================================================
+
+print("📊 Модуль прогресса загружен (PC)")
+print(f"🎨 Стили анимаций: {', '.join(ANIMATION_STYLES.keys())}")
+print(f"📁 Temp: {TEMP_DIR}")
