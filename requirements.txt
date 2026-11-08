@@ -1,7 +1,7 @@
 pyTelegramBotAPI
 requests
 dnspython
-flask
 cryptography
 pyshielder
 pytz
+flask
